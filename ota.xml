@@ -1,9 +1,9 @@
 <OTACenter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 <Stable>
 <A0001>
-<Filename>OwnROM-bacon-BETA-0.5-NIGHTLY-20150625</Filename>
+<Filename>OwnROM-bacon-BETA-0.7-OFFICIAL-20150709</Filename>
 <DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347765000
+https://www.androidfilehost.com/?fid=24052804347777085
 </DownloadUrl>
 </A0001>
 <shamu>
