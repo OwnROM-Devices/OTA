@@ -1,9 +1,9 @@
 <OTACenter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 <Stable>
 <A0001>
-<Filename>OwnROM-bacon-BETA-0.7-OFFICIAL-20150709</Filename>
+<Filename>OwnROM-bacon-BETA-1.0-OFFICIAL-20150816</Filename>
 <DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347770845
+http://sourceforge.net/projects/ownrom/files/bacon/OwnROM-bacon-1.0-OFFICIAL-20150816.zip/download
 </DownloadUrl>
 </A0001>
 <shamu>
@@ -48,15 +48,15 @@ https://www.androidfilehost.com/?fid=24052804347764871
 </DownloadUrl>
 </YUREKA>
 <sprout4>
-<Filename>OwnROM-sprout4-BETA-0.7-OFFICIAL-20150714</Filename>
+<Filename>OwnROM-sprout4-BETA-1.0-OFFICIAL-20150816</Filename>
 <DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347774073
+http://sourceforge.net/projects/ownrom/files/sprout4/OwnROM-sprout4-1.0-OFFICIAL-20150816.zip/download
 </DownloadUrl>
 </sprout4>
 <sprout8>
-<Filename>OwnROM-sprout8-BETA-0.7-OFFICIAL-20150714</Filename>
+<Filename>OwnROM-sprout8-BETA-1.0-OFFICIAL-20150816</Filename>
 <DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347774083
+http://sourceforge.net/projects/ownrom/files/sprout8/OwnROM-sprout8-1.0-OFFICIAL-20150816.zip/download
 </DownloadUrl>
 </sprout8>
 <jfltetmo>
