@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OwnOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Nightly>
         <angler>
             <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160601.zip</Filename>
@@ -19,6 +19,6 @@
                 id="xda"
                 title="XDA"
                 description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6p/development/rom-6-0-1-official-ownrom-v3-0-t3357338</XDAUrl>
-	</angler>
+	    </angler>
     </Nightly>
-</OwnOTA>
+</SlimOTA>
