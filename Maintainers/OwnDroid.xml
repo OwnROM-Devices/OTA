@@ -1,98 +1,24 @@
-<OTACenter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-<Stable>
-<A0001>
-<Filename>OwnROM-bacon-BETA-1.0-OFFICIAL-20150816</Filename>
-<DownloadUrl>
-http://sourceforge.net/projects/ownrom/files/bacon/OwnROM-bacon-1.0-OFFICIAL-20150816.zip/download
-</DownloadUrl>
-</A0001>
-<angler>
-<Filename>OwnROM-OFFCIAL-Nightly-v3.0-angler-20160515.zip</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24533103863140495</DownloadUrl>
-</angler>
-<shamu>
-<Filename>OwnROM-shamu-BETA-0.7-OFFICIAL-20150709</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347770981</DownloadUrl>
-</shamu>
-<hammerhead>
-<Filename>OwnROM-hammerhead-BETA-0.5-NIGHTLY-20150621</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347763119
-</DownloadUrl>
-</hammerhead>
-<klte>
-<Filename>OwnROM-klte-BETA-0.5-NIGHTLY-20150621</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347763107
-</DownloadUrl>
-</klte>
-<huashan>
-<Filename>OwnROM-huashan-BETA-0.5-OFFICIAL-20150620</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347762459
-</DownloadUrl>
-</huashan>
-<falcon_umtsds>
-<Filename>OwnROM-falcon-BETA-0.7-OFFICIAL-20150713</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347773490
-</DownloadUrl>
-</falcon_umtsds>
-<falcon>
-<Filename>OwnROM-falcon-BETA-0.7-OFFICIAL-20150713</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347773490
-</DownloadUrl>
-</falcon>
-<YUREKA>
-<Filename>OwnROM-tomato-BETA-0.5-NIGHTLY-20150625</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347764871
-</DownloadUrl>
-</YUREKA>
-<sprout4>
-<Filename>OwnROM-sprout4-BETA-1.0-OFFICIAL-20150816</Filename>
-<DownloadUrl>
-http://sourceforge.net/projects/ownrom/files/sprout4/OwnROM-sprout4-1.0-OFFICIAL-20150816.zip/download
-</DownloadUrl>
-</sprout4>
-<sprout8>
-<Filename>OwnROM-sprout8-BETA-1.0-OFFICIAL-20150816</Filename>
-<DownloadUrl>
-http://sourceforge.net/projects/ownrom/files/sprout8/OwnROM-sprout8-1.0-OFFICIAL-20150816.zip/download
-</DownloadUrl>
-</sprout8>
-<jfltetmo>
-<Filename>OwnROM-jfltetmo-BETA-0.7-OFFICIAL-20150715</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347774940
-</DownloadUrl>
-</jfltetmo>
-<jfltexx>
-<Filename>OwnROM-jfltexx-BETA-0.7-OFFICIAL-20150715</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347775002
-</DownloadUrl>
-</jfltexx>
-<p760>
-<Filename>OwnROM-p760-BETA-0.6-UNOFFICIAL-20150630.zip</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347767894
-</DownloadUrl>
-</p760>
-<w7>
-<Filename>OwnROM-w7-BETA-0.6-OFFICIAL-20150628</Filename>
-<DownloadUrl>
-https://www.androidfilehost.com/?fid=24052804347766348
-</DownloadUrl>
-</w7>
-<flo>
-<Filename>OwnROM-flo-BETA-0.7-OFFICIAL-20150710</Filename>
-<DownloadUrl>
-https://de1.androidfilehost.com/dl/MhzhkmIbSq5D8CJ1JLhIfA/1436500158/24052804347771112/OwnROM-flo-BETA-0.7-OFFICIAL-20150710.zip
-</DownloadUrl>
-</flo>
-</Stable>
-</OTACenter>
+<?xml version="1.0" encoding="UTF-8"?>
+<OwnOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Nightly>
+        <angler>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160601.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="OwnROM"
+                description="Download OwnROM Nightly Builds">https://www.androidfilehost.com/?fid=24572388905582906</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Changelog">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/angler.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&flid=41020</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6p/development/rom-6-0-1-official-ownrom-v3-0-t3357338</XDAUrl>
+	</angler>
+    </Nightly>
+</OwnOTA>
