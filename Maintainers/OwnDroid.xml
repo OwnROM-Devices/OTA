@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <angler>
-            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160601.zip</Filename>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160607.zip</Filename>
             <RomUrl
                 id="rom"
                 title="OwnROM"
