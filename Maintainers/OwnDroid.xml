@@ -19,7 +19,15 @@
                 id="gapps"
                 title="Dynamic Gapps"
                 description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
-            <XDAUrl
+              <MiscUrl
+                id="misc"
+                title="Misc"
+                description="Download latest bootloaders, vendors and radio iamges">https://www.androidfilehost.com/?w=files&amp;flid=43153</MiscUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for Agler">https://dl.twrp.me/angler</TwrpUrl>
+          <XDAUrl
                 id="xda"
                 title="XDA"
                 description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6p/development/rom-6-0-1-official-ownrom-v3-0-t3357338</XDAUrl>
@@ -44,12 +52,16 @@
                 description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=32575</RomUrl>
             <ChangelogUrl
                 id="changelog"
-                title="Angler Changelog"
-                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/shamu.txt</ChangelogUrl>
+                title="Shamu Changelog"
+                description="See the changes we made for Shamu">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/shamu.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
                 description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for Shamu">https://dl.twrp.me/shamu</TwrpUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
@@ -75,12 +87,16 @@
                 description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=33338</RomUrl>
             <ChangelogUrl
                 id="changelog"
-                title="Angler Changelog"
-                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/klte.txt</ChangelogUrl>
+                title="KLTE Changelog"
+                description="See the changes we made for KLTE">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/klte.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
                 description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for KLTE">https://dl.twrp.me/klte</TwrpUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
