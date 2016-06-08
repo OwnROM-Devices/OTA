@@ -3,14 +3,18 @@
     <Stable>
         <angler>
             <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160607.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24572388905582906</NewRomUrl>
             <RomUrl
                 id="rom"
-                title="OwnROM"
-                description="Download OwnROM Nightly Builds">https://www.androidfilehost.com/?fid=24572388905582906</RomUrl>
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://androidfilehost.com/user/?w=settings-dev-files&amp;flid=54055</RomUrl>
             <ChangelogUrl
                 id="changelog"
-                title="Changelog"
-                description="Changelog">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/angler.txt</ChangelogUrl>
+                title="Angler Changelog"
+                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/angler.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
@@ -19,6 +23,76 @@
                 id="xda"
                 title="XDA"
                 description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6p/development/rom-6-0-1-official-ownrom-v3-0-t3357338</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Mark V (OwnDroid)"
+                description="Maintainer for OwnAngler">https://plus.google.com/+MarkVisser10021991/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Fisit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
 	    </angler>
-    </Stable>
+        <shamu>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-shamu-20160601.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24572388905582908</NewRomUrl>
+            <RomUrl
+                id="rom"
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=32575</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Angler Changelog"
+                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/shamu.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6/development/rom-5-1-1r3-ownrom-shamu-t3122876</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Mark V (OwnDroid)"
+                description="Maintainer for OwnAngler">https://plus.google.com/+MarkVisser10021991/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Fisit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
+	    </shamu>
+         <klte>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-klte-20160601.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24572330218881706</NewRomUrl>
+            <RomUrl
+                id="rom"
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=33338</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Angler Changelog"
+                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/klte.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnAngler XDA thread">http://forum.xda-developers.com/nexus-6/development/rom-5-1-1r3-ownrom-shamu-t3122876</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Mark V (OwnDroid)"
+                description="Maintainer for OwnAngler">https://plus.google.com/+MarkVisser10021991/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Fisit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
+	    </klte>
+   </Stable>
 </SlimOTA>
