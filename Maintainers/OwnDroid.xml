@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <angler>
-            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160607.zip</Filename>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-angler-20160608.zip</Filename>
             <NewRomUrl
                 id="newrom"
                 title="Latest OwnROM"
-                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24572388905582906</NewRomUrl>
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24580943222145898</NewRomUrl>
             <RomUrl
                 id="rom"
                 title="OwnROM Nightlies"
