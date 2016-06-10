@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <hammerhead>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-hammerhead-20160609.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24580957398892762</NewRomUrl>
+            <RomUrl
+                id="rom"
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=60299</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Hammerhead Changelog"
+                description="See the changes we made for Hammerhead">https://raw.githubusercontent.com/OwnROM-Devices/OTA/master/changelogs/hammerhead.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for Hammerhead">https://dl.twrp.me/hammerhead/</TwrpUrl>
+          <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnHammerhead XDA thread">http://forum.xda-developers.com/google-nexus-5/development/ownrom-hammerhead-6-0-1-mtc19t-official-t3382864</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Odale Atkinson (OneDon)"
+                description="Maintainer for OwnHammerhead">https://plus.google.com/u/1/114717404569139753782/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Visit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
+	    </hammerhead>
+   </Stable>
+</SlimOTA>
