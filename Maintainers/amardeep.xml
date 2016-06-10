@@ -1,1 +1,41 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <hammerhead>
+            <Filename>OwnROM-OFFICIAL-Release-v3.0-bacon-20160610.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24580943222146542</NewRomUrl>
+            <RomUrl
+                id="rom"
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=67177</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Hammerhead Changelog"
+                description="See the changes we made for Bacon">https://raw.githubusercontent.com/OwnROM-Devices/OTA/master/changelogs/bacon.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for Bacon">https://dl.twrp.me/bacon/</TwrpUrl>
+          <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnBacon XDA thread">http://forum.xda-developers.com/oneplus-one/development/rom-ownrom-0-1-alpha-t3128079</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Amardeep Arora (amardeep434)"
+                description="Maintainer for OwnBacon">https://plus.google.com/u/0/103123064937076815382/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Visit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
+	    </hammerhead>
+   </Stable>
+</SlimOTA>
