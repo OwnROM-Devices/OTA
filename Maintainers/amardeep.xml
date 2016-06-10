@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <hammerhead>
+        <bacon>
             <Filename>OwnROM-OFFICIAL-Release-v3.0-bacon-20160610.zip</Filename>
             <NewRomUrl
                 id="newrom"
@@ -36,6 +36,6 @@
                 id="Gplus"
                 title="OwnDroid G+"
                 description="Visit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
-	    </hammerhead>
+	    </bacon>
    </Stable>
 </SlimOTA>
