@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <hammerhead>
-            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-hammerhead-20160609.zip</Filename>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-hammerhead-20160611.zip</Filename>
             <NewRomUrl
                 id="newrom"
                 title="Latest OwnROM"
