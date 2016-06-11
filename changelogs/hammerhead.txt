@@ -2,12 +2,46 @@
      06-10-2016
 ====================
 
+   * android/
+495f974  Update Changelog.txt  [GitHub]
+   * art/
+ebb3a5e  art: Fix QCPERF workaround for ARM after Clang fixes  [Steve Kondik]
+fd80703  Enable clang for ARM builds.  [Steve Kondik]
+   * frameworks/base/
+82416e8  update nl translation  [GitHub]
+346223a  Frameworks: Lockscreen blur & see through (1/2)  [OwnDroid]
+   * packages/apps/Bluetooth/
+acfd7c3  Bluetooth-OPP: Check URI of sending files before entry cleanup  [Roman Birg]
+cf5fdf7  Set sJniAdapterServiceObj to NULL after deleting it  [Gerrit Code Review]
+02d9c10  Bluetooth: Using the eventHandler to start listener  [Roman Birg]
+5080b9b  Bluetooth OPP: Fix mismerge  [Roman Birg]
+072643f  Bluetooth: fix opp NPE  [Gerrit Code Review]
+   * packages/apps/Dialer/
+6f8f504  Ensure we have permissions before rebuilding database  [Stephen Bird]
+5287347  Increment nudge only after shown intent returns  [Stephen Bird]
+   * packages/apps/Messaging/
+c042a5e  Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml  [Gerrit Code Review]
+   * packages/apps/Nfc/
+01ba29d  Revert "Nfc: Clear transfer manager service on Destroy"  [Gerrit Code Review]
+606f7ef  Revert "nfc: create a bootstrap service"  [Roman Birg]
+   * packages/apps/Settings/
+2f0107c  Lockscreen blur & see through (2/2)  [OwnDroid]
+
+====================
+     06-09-2016
+====================
+
    * art/
 9805570  art: Re-enable host clang  [Steve Kondik]
    * external/skia/
 b632abe  skia: qc-perf: link against libqc-opt for msm8937/17/53  [Ricardo Cerqueira]
+   * frameworks/base/
+5e516d8  WallpaperCropper: use same action bar style as Launcher3  [OwnDroid]
+1537888  base: add keyguard support in WallpaperCropActivity  [OwnDroid]
    * hardware/qcom/media-caf/msm8937/
 07f11ee  make: Fix up platform inclusion  [Ricardo Cerqueira]
+   * packages/apps/Bluetooth/
+9792f96  Revert "Ensure synchronized access of JNI callback object"  [Roman Birg]
    * packages/apps/CellBroadcastReceiver/
 0b8b02b  Automatic translation import  [pinky@build01]
    * packages/apps/Contacts/
@@ -23,11 +57,13 @@ b632abe  skia: qc-perf: link against libqc-opt for msm8937/17/53  [Ricardo Cerqu
 5203455  Automatic translation import  [pinky@build01]
    * packages/apps/Screencast/
 3de1b3f  Automatic translation import  [pinky@build01]
+   * packages/apps/Settings/
+d9cece2  LockscreenWallpaper: Use FB's WallpaperCropper  [OwnDroid]
    * packages/providers/DataUsageProvider/
 ad02907  Automatic translation import  [pinky@build01]
 
 ====================
-     06-09-2016
+     06-08-2016
 ====================
 
    * android/
@@ -89,7 +125,7 @@ b2eee55  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_system
 abb934e  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
 
 ====================
-     06-08-2016
+     06-07-2016
 ====================
 
    * android/
@@ -160,9 +196,11 @@ cf8f5ce  CMSettingsProvider: Register as CMTS package.  [Adnan Begovic]
 7a48ce3  cmsdk: Add test package to CMTS targets.  [Adnan Begovic]
 fb0c037  cmsdk: Fix redundant case in themes contract's componentToImageColName.  [Adnan Begovic]
 39f0012  cmsdk: Provide themescontract tests.  [Gerrit Code Review]
+   * vendor/lge/
+7bd8569  vk810: update adreno from adreno_nexus_may2016.zip  [Dan Pasanen]
 
 ====================
-     06-07-2016
+     06-06-2016
 ====================
 
    * android/
@@ -213,14 +251,13 @@ e0196cc  Automatic translation import  [inky@build01]
 c45e01b  Automatic translation import  [inky@build01]
 621e25a  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
    * vendor/lge/
-7bd8569  vk810: update adreno from adreno_nexus_may2016.zip  [Dan Pasanen]
 c9d2056  v4xx: update adreno from adreno_nexus_may2016.zip  [Dan Pasanen]
    * vendor/ownrom/
 4186089  Build OwnOTA  [OwnDroid]
 4a014c5  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_vendor_cm into own-mm  [OwnDroid]
 
 ====================
-     06-06-2016
+     06-05-2016
 ====================
 
    * art/
@@ -238,7 +275,7 @@ a85d319  setting RLIMIT to INFINITY.  [Steve Kondik]
 3bca7f7  vs986: initial bringup  [Dan Pasanen]
 
 ====================
-     06-05-2016
+     06-04-2016
 ====================
 
    * android/
@@ -267,7 +304,7 @@ a35d16f  Forward Port: Add Camera sound toggle [2/3]  [OwnDroid]
 7e74703  Repo Own-ifying  [OwnDroid]
 
 ====================
-     06-04-2016
+     06-03-2016
 ====================
 
    * build/
@@ -311,27 +348,3 @@ c4becbb  CMSettings: fix lock screen rotation toggle [3/3]  [Gerrit Code Review]
    * vendor/ownrom/
 278fa60  persist.dbg/data for radio to control QC prop's  [Gerrit Code Review]
 b538b7c  cm: enable lockscreen rotation option  [Gerrit Code Review]
-
-====================
-     06-03-2016
-====================
-
-   * android/
-56baba3  Update Changelog.txt  [OwnDroid]
-   * frameworks/base/
-ce709c9  fw: Fix power key interception for PRIVATE_FLAG_PREVENT_POWER_KEY  [Adnan Begovic]
-   * hardware/qcom/audio-caf/msm8996/
-27c02b0  msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled  [Chao Chen]
-   * packages/apps/CellBroadcastReceiver/
-2015d27  Do not let system keys bypass alert  [Deepak Kundra]
-   * packages/apps/Dialer/
-297bc8d  Fix NPE when checking default Dialer  [Gerrit Code Review]
-   * packages/apps/Settings/
-1bd8d67  Lockscreen -> lock screen  [Michael Bestas]
-   * packages/services/Mms/
-50a85fe  Revert "MmsRequest: Turn on data for the MMS transaction if required"  [Ricardo Cerqueira]
-   * vendor/cmsdk/
-ee069f8  Themes: Use default audibles when pkgName is empty  [d34d]
-   * vendor/lge/
-3785e5d  Merge pull request #183 from bryan2894/D851_30D  [Dan Pasanen]
-
