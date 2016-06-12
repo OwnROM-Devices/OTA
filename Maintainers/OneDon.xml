@@ -19,6 +19,10 @@
                 id="gapps"
                 title="Dynamic Gapps"
                 description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <GappsUrl
+                id="gapps"
+                title="Open GApps"
+                description="Download latest Open GApps">http://opengapps.org/?arch=arm</GappsUrl>
             <TwrpUrl
                 id="twrp"
                 title="TWRP Recovery"
