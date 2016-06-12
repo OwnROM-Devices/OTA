@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <bacon>
-            <Filename>OwnROM-OFFICIAL-Release-v3.0-bacon-20160610.zip</Filename>
+            <Filename>OwnROM-OFFICIAL-Release-v3.0-bacon-20160611.zip</Filename>
             <NewRomUrl
                 id="newrom"
                 title="Latest OwnROM"
-                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24580943222146542</NewRomUrl>
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24580943222146816</NewRomUrl>
             <RomUrl
                 id="rom"
                 title="OwnROM Nightlies"
