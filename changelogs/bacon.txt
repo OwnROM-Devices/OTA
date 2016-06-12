@@ -1,16 +1,83 @@
 ====================
+     06-11-2016
+====================
+
+   * device/oneplus/bacon/
+1adb824  Merge branch 'cm-13.0' of https://github.com/cyanogenmod/android_device_oneplus_bacon into own-mm  [amardeep]
+   * frameworks/av/
+0a17006  libmedia: Add 1440p camcorder quality  [amardeep]
+   * frameworks/base/
+9f84164  CamcorderProfile: Add 1440p camcorder profile  [amardeep]
+82416e8  update nl translation  [GitHub]
+   * packages/apps/Bluetooth/
+acfd7c3  Bluetooth-OPP: Check URI of sending files before entry cleanup  [Roman Birg]
+cf5fdf7  Set sJniAdapterServiceObj to NULL after deleting it  [Gerrit Code Review]
+02d9c10  Bluetooth: Using the eventHandler to start listener  [Roman Birg]
+5080b9b  Bluetooth OPP: Fix mismerge  [Roman Birg]
+072643f  Bluetooth: fix opp NPE  [Gerrit Code Review]
+   * packages/apps/Dialer/
+6f8f504  Ensure we have permissions before rebuilding database  [Stephen Bird]
+5287347  Increment nudge only after shown intent returns  [Stephen Bird]
+   * packages/apps/Messaging/
+c042a5e  Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml  [Gerrit Code Review]
+   * packages/apps/Nfc/
+01ba29d  Revert "Nfc: Clear transfer manager service on Destroy"  [Gerrit Code Review]
+606f7ef  Revert "nfc: create a bootstrap service"  [Roman Birg]
+   * packages/apps/OwnOTA/
+de6443c  last test  [OwnDoid]
+6184ba5  still testing  [askowndroid@gmail.com]
+237fe71  Testing android Git client  [OwnDroid]
+   * packages/apps/Profiles/
+92e7bb0  Revert "Ensures ProfileTrustAgent properly grants/revokes trust [1/2]"  [amardeep]
+
+====================
      06-10-2016
 ====================
 
+   * android/
+495f974  Update Changelog.txt  [GitHub]
+   * art/
+ebb3a5e  art: Fix QCPERF workaround for ARM after Clang fixes  [Steve Kondik]
+fd80703  Enable clang for ARM builds.  [Steve Kondik]
+9805570  art: Re-enable host clang  [Steve Kondik]
+   * external/skia/
+b632abe  skia: qc-perf: link against libqc-opt for msm8937/17/53  [Ricardo Cerqueira]
+   * frameworks/base/
+346223a  Frameworks: Lockscreen blur & see through (1/2)  [OwnDroid]
+5e516d8  WallpaperCropper: use same action bar style as Launcher3  [OwnDroid]
+1537888  base: add keyguard support in WallpaperCropActivity  [OwnDroid]
+   * hardware/qcom/media-caf/msm8937/
+07f11ee  make: Fix up platform inclusion  [Ricardo Cerqueira]
+   * packages/apps/Bluetooth/
+9792f96  Revert "Ensure synchronized access of JNI callback object"  [Roman Birg]
+   * packages/apps/CellBroadcastReceiver/
+0b8b02b  Automatic translation import  [pinky@build01]
+   * packages/apps/Contacts/
+5307288  Automatic translation import  [pinky@build01]
+   * packages/apps/ContactsCommon/
+939ed41  Add valid number checks for block menu item  [Erica Chang]
+   * packages/apps/Dialer/
+49ee037  Automatic translation import  [pinky@build01]
+209c67b  Performance tweaks for DeepLinkCache and icon retrieval.  [Gerrit Code Review]
+   * packages/apps/InCallUI/
+2c9893f  Automatic translation import  [pinky@build01]
+   * packages/apps/Messaging/
+5203455  Automatic translation import  [pinky@build01]
+   * packages/apps/Screencast/
+3de1b3f  Automatic translation import  [pinky@build01]
+   * packages/apps/Settings/
+2f0107c  Lockscreen blur & see through (2/2)  [OwnDroid]
+d9cece2  LockscreenWallpaper: Use FB's WallpaperCropper  [OwnDroid]
+   * packages/providers/DataUsageProvider/
+ad02907  Automatic translation import  [pinky@build01]
 
 ====================
      06-09-2016
 ====================
 
-   * frameworks/av/
-c11f680  libmedia: Add 1440p camcorder quality  [amardeep]
-   * frameworks/base/
-b246797  CamcorderProfile: Add 1440p camcorder profile  [amardeep]
+   * device/qcom/common/
+97aa119  power-8992: Remove extraneous boosting  [Steve Kondik]
+ad90ded  power: Use declared enums where possible  [Gerrit Code Review]
    * hardware/qcom/media-caf/msm8952/
 d81a756  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
 ddeb931  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
@@ -32,13 +99,15 @@ aa24ca6  Contacts : Remove silent option from ringtone  [Gerrit Code Review]
 52cab04  Nudges: Move roaming nudge logic to wifi listener  [Gerrit Code Review]
 6a2124a  Initialize ContactsTile loader in SpeedDialFragment onStart  [Raj Yengisetty]
    * packages/apps/LockClock/
+325513b  Unregister from WeatherManager ONLY if service was actually registered  [Luis Vidal]
 d9c5b0a  Report correct status if failed to process weather update request  [Luis Vidal]
    * packages/apps/OwnOTA/
 a07d974  Add dutch translations  [OwnDroid]
-   * packages/apps/Profiles/
-b6a0729  Revert "Ensures ProfileTrustAgent properly grants/revokes trust [1/2]"  [amardeep]
    * packages/apps/Settings/
 c19fa33  don't need this here  [OwnDroid]
+   * vendor/oneplus/
+14cee47  Merge pull request #29 from Grarak/cm-13.0  [ciwrl]
+16390ea  oneplus2: Remove few dpm blobs and sensors.hal.tof  [Willi Ye]
 
 ====================
      06-08-2016
@@ -50,18 +119,24 @@ d39dc2d  Fix sync  [OwnDroid]
 22999db  Derp  [OwnDroid]
 14f37a8  Merge branch 'own-mm' of https://github.com/OwnROM/android into own-mm  [OwnDroid]
 77df133  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android into own-mm  [OwnDroid]
+3b7052a  default.xml: cm: Update to 6.0.1_r46  [Jessica Wagantall]
    * build/
 b84580d  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into own-mm  [OwnDroid]
-   * device/qcom/common/
-ad90ded  power: Use declared enums where possible  [Gerrit Code Review]
+9b017f9  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
+   * external/libvpx/
+2246e67  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * frameworks/av/
 5257bfb  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_av into own-mm  [OwnDroid]
 fdc7d1f  Fixing ALOGE message in commit ad40e57890f81a3cf436c5f06da66396010bd9e5  [Jessica Wagantall]
 b3fbce1  MtpServer: Fix concurrent access to mStorages  [Tom Marshall]
 9bdc0f6  MTP: Fix crash when no storages are available  [Gerrit Code Review]
+80c362f  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * frameworks/base/
 a6274b7  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_base into own-mm  [OwnDroid]
 d76326b  Fix build  [OwnDroid]
+03ea311  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
+   * frameworks/native/
+508eb77  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * hardware/qcom/audio-caf/msm8916/
 277f5f4  Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.14' into cm-13.0-caf-8916  [Ethan Chen]
    * hardware/qcom/audio-caf/msm8952/
@@ -93,6 +168,8 @@ d3faccc  msm: camera: ispif: Validate VFE num input during reset  [Gerrit Code R
 ef133b1  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * packages/apps/CellBroadcastReceiver/
 f54de60  fix Dutch translation - On vs Off  [Gerrit Code Review]
+   * packages/apps/InCallUI/
+7ce8323  Automatic translation import  [Gerrit Code Review]
    * packages/apps/Messaging/
 b3585c8  PhoneUtils: Doublecheck that the system default is actually usable  [Ricardo Cerqueira]
 ca8ed52  Messaging: fix multi participant "always-ask" MSIM flow  [Ricardo Cerqueira]
@@ -124,6 +201,7 @@ d24e2c9  Merge "Merge tag 'android-6.0.1_r46' into HEAD" into cm-13.0  [Gerrit C
 600e1a9  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * system/core/
 b2eee55  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_system_core into own-mm  [OwnDroid]
+64caba3  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * vendor/cmsdk/
 abb934e  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
 19de84c  cmsdk: LiveDisplay: Enforce dump permission  [Gerrit Code Review]
@@ -139,26 +217,18 @@ fb0c037  cmsdk: Fix redundant case in themes contract's componentToImageColName.
 ====================
 
    * android/
-3b7052a  default.xml: cm: Update to 6.0.1_r46  [Jessica Wagantall]
 b707314  Add OwnOTA back  [OwnDroid]
    * build/
-9b017f9  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
 a778042  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into own-mm  [OwnDroid]
    * device/oppo/common/
 91ef956  Automatic translation import  [inky@build01]
-   * external/libvpx/
-2246e67  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * frameworks/av/
-80c362f  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * frameworks/base/
-03ea311  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
 423a82e  systemui: Fix compilation failure  [Diogo Ferreira]
 1b2a150  isRoaming: fix possible NPE  [Gerrit Code Review]
 eda4060  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_base into own-mm  [OwnDroid]
 fecebd8  Add missing resource lines  [OwnDroid]
 4073773  Revert "Revert "App sidebar: notify if app is not installed""  [OwnDroid]
-   * frameworks/native/
-508eb77  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
+3d98dae  SystemUI: Add support for persistent usb drive notification.  [Gerrit Code Review]
    * frameworks/opt/telephony/
 a94ae66  DcTracker: use IMSI with APN lookup  [Roman Birg]
    * packages/apps/BluetoothExt/
@@ -175,7 +245,6 @@ bcc87f9  Automatic translation import  [inky@build01]
 fd13175  Automatic translation import  [inky@build01]
 054c1bb  Wire up share visible contacts  [Stephen Bird]
    * packages/apps/InCallUI/
-7ce8323  Automatic translation import  [Gerrit Code Review]
 919274a  InCallUI: Fix possible OOBs  [Gerrit Code Review]
 8ce4db2  Fix appearance of auxiliary circles in GlowPadView.  [Gerrit Code Review]
    * packages/apps/LockClock/
@@ -200,8 +269,6 @@ a27755d  Automatic translation import  [inky@build01]
 09b9135  Automatic translation import  [inky@build01]
    * packages/services/Telephony/
 e0196cc  Automatic translation import  [inky@build01]
-   * system/core/
-64caba3  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
    * vendor/cmsdk/
 c45e01b  Automatic translation import  [inky@build01]
 621e25a  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
@@ -215,8 +282,6 @@ c45e01b  Automatic translation import  [inky@build01]
 
    * external/libnetfilter_conntrack/
 4d4cb7f  conntrack: Add kernel dependency  [Steve Kondik]
-   * frameworks/base/
-3d98dae  SystemUI: Add support for persistent usb drive notification.  [Gerrit Code Review]
    * kernel/oneplus/msm8974/
 970f292  mm, oom: base root bonus on current usage  [Steve Kondik]
 8a803ae  persistent_ram: check PERSISTENT_RAM_SIG before writing  [Steve Kondik]
@@ -241,16 +306,24 @@ a85d319  setting RLIMIT to INFINITY.  [Steve Kondik]
 9179ac8  ART: make ART extension available only in 32bit  [Steve Kondik]
    * build/
 8277466  Falling stars...  [OwnDroid]
+   * device/oneplus/bacon/
+cae9cb7  bacon: Add blobs for tether extensions  [Steve Kondik]
+87170a2  bacon: Disable memory compression  [Steve Kondik]
    * device/qcom/common/
 674fb85  power-8952: Fix array initialization  [Ethan Chen]
    * external/wpa_supplicant_8/
 41d4451  Merge branch 'LA.BF64.1.2.2_rb4.40' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0  [Steve Kondik]
+   * frameworks/base/
+28b56b6  Add option to disable scrolling cache [1/2]  [OwnDroid]
    * kernel/oneplus/msm8974/
 f65545b  bacon: Update defconfig  [Steve Kondik]
 4972ca6  Merge branch 'linux-3.4.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-13.0  [Steve Kondik]
 bc89af2  Merge branch 'linux-3.4.y' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-13.0  [Steve Kondik]
+   * packages/apps/OmniSwitch/
+b6c72b0  Add dutch(NL) translations  [OwnDroid]
    * packages/apps/Settings/
 5da4a02  Reflect ownrom imports  [OwnDroid]
+ae0c6e8  Add option to disable scrolling cache [2/2]  [OwnDroid]
    * vendor/cmsdk/
 70d3b76  cmsdk: Add binder transaction id tests for api 5 interfaces.  [Gerrit Code Review]
    * vendor/oneplus/
@@ -265,10 +338,11 @@ bc89af2  Merge branch 'linux-3.4.y' of git://git.kernel.org/pub/scm/linux/kernel
 20b0a3d  Track our own AV  [OwnDroid]
    * device/oneplus/bacon/
 57266cc  Merge remote-tracking branch 'cm/cm-13.0' into own-mm  [Akhil Narang]
+   * external/stagefright-plugins/
+9db7a9c  stagefright-plugins: flac does not playback  [Keith Mok]
    * frameworks/av/
 4d685b5  Forward Port: Add Camera sound toggle [3/3]  [OwnDroid]
    * frameworks/base/
-28b56b6  Add option to disable scrolling cache [1/2]  [OwnDroid]
 3e5cf00  Forward Port: Add Camera sound toggle [1/3]  [OwnDroid]
 a563b30  powermanager: Extend scope of lock when updating blocked UIDs  [Gerrit Code Review]
 28e023d  Only show keyguard panel if on lockscreen + no activity on top  [Gerrit Code Review]
@@ -290,14 +364,11 @@ ce01d29  SystemUI: fix toggling lockscreen rotation [1/3]  [Gerrit Code Review]
 c6cce58  Automatic translation import  [clyde@build01]
    * packages/apps/Messaging/
 d829188  Automatic translation import  [clyde@build01]
-   * packages/apps/OmniSwitch/
-b6c72b0  Add dutch(NL) translations  [OwnDroid]
    * packages/apps/OwnOTA/
 81938a1  Automated nightly translation import  [Akhil Narang]
    * packages/apps/Screencast/
 8af2ad3  Automatic translation import  [clyde@build01]
    * packages/apps/Settings/
-ae0c6e8  Add option to disable scrolling cache [2/2]  [OwnDroid]
 a35d16f  Forward Port: Add Camera sound toggle [2/3]  [OwnDroid]
 f6744a9  Radio info to control QC dbg prop's  [Gerrit Code Review]
 d6715b9  Automatic translation import  [clyde@build01]
@@ -319,106 +390,3 @@ c4becbb  CMSettings: fix lock screen rotation toggle [3/3]  [Gerrit Code Review]
 7e74703  Repo Own-ifying  [OwnDroid]
 278fa60  persist.dbg/data for radio to control QC prop's  [Gerrit Code Review]
 b538b7c  cm: enable lockscreen rotation option  [Gerrit Code Review]
-
-====================
-     06-03-2016
-====================
-
-   * build/
-0bf1403  build: add kernel header dependency if module uses kernel headers  [Scott Mertz]
-   * device/qcom/common/
-a214e51  power: Fixup typo in 8939 cpu4 timer rate  [Pat Erley]
-   * external/stagefright-plugins/
-9db7a9c  stagefright-plugins: flac does not playback  [Keith Mok]
-   * frameworks/base/
-ce709c9  fw: Fix power key interception for PRIVATE_FLAG_PREVENT_POWER_KEY  [Adnan Begovic]
-   * hardware/qcom/audio-caf/msm8996/
-27c02b0  msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled  [Chao Chen]
-   * kernel/oneplus/msm8974/
-2ba43a5  f2fs: adjust other changes  [Jaegeuk Kim]
-9305543  f2fs: fix to update dirty page count correctly  [Jaegeuk Kim]
-e4b7b6e  f2fs: flush pending bios right away when error occurs  [Jaegeuk Kim]
-66cef7c  f2fs: avoid ENOSPC fault in the recovery process  [Jaegeuk Kim]
-1bd84fa  f2fs: make exit_f2fs_fs more clear  [Jaegeuk Kim]
-1a93835  f2fs: use percpu_counter for total_valid_inode_count  [Jaegeuk Kim]
-9d8d9e3  f2fs: use percpu_counter for alloc_valid_block_count  [Jaegeuk Kim]
-fa85fe9  f2fs: use percpu_counter for # of dirty pages in inode  [Jaegeuk Kim]
-f5c4752  f2fs: use percpu_counter for page counters  [Jaegeuk Kim]
-e35be38  f2fs: use bio count instead of F2FS_WRITEBACK page count  [Jaegeuk Kim]
-69085d6  f2fs: manipulate dirty file inodes when DATA_FLUSH is set  [Jaegeuk Kim]
-1f43a73  f2fs: add fault injection to sysfs  [Jaegeuk Kim]
-7b50c67  f2fs: no need inc dirty pages under inode lock  [Jaegeuk Kim]
-2bf4023  f2fs: fix incorrect error path handling in f2fs_move_rehashed_dirents  [Jaegeuk Kim]
-ac75b8f  f2fs: fix i_current_depth during inline dentry conversion  [Jaegeuk Kim]
-9d3c4eb  f2fs: correct return value type of f2fs_fill_super  [Jaegeuk Kim]
-223ea6f  f2fs: fix deadlock when flush inline data  [Jaegeuk Kim]
-332c4a9  f2fs: avoid f2fs_bug_on during recovery  [Jaegeuk Kim]
-1d7df62  f2fs: show # of orphan inodes  [Jaegeuk Kim]
-8891f530  f2fs: support in batch fzero in dnode page  [Jaegeuk Kim]
-309937a  f2fs: support in batch multi blocks preallocation  [Jaegeuk Kim]
-f805930  f2fs: make atomic/volatile operation exclusive  [Jaegeuk Kim]
-4e73139  f2fs: use mnt_{want,drop}_write_file in ioctl  [Jaegeuk Kim]
-5fb07b6  f2fs: do not preallocate block unaligned to 4KB  [Jaegeuk Kim]
-2f488d2  f2fs: read node blocks ahead when truncating blocks  [Jaegeuk Kim]
-e798a80  f2fs: fallocate data blocks in single locked node page  [Jaegeuk Kim]
-8e708fb  f2fs: fix inode cache leak  [Jaegeuk Kim]
-b190e49  fscrypto/f2fs: allow fs-specific key prefix for fs encryption  [Jaegeuk Kim]
-b321bee  f2fs: avoid panic when truncating to max filesize  [Jaegeuk Kim]
-0659f22  f2fs: fix incorrect mapping in ->bmap  [Jaegeuk Kim]
-6a8ad74  f2fs: remove an obsolete variable  [Jaegeuk Kim]
-bb5c075  f2fs: don't worry about inode leak in evict_inode  [Jaegeuk Kim]
-f85ed42  f2fs: shrink size of struct seg_entry  [Jaegeuk Kim]
-a17f01b  f2fs: reuse get_extent_info  [Jaegeuk Kim]
-545afb6  f2fs: remove unneeded memset when updating xattr  [Jaegeuk Kim]
-70822f6  f2fs: remove unneeded readahead in find_fsync_dnodes  [Jaegeuk Kim]
-5d18a6c  f2fs: retry to truncate blocks in -ENOMEM case  [Jaegeuk Kim]
-817d42d  f2fs: fix leak of orphan inode objects  [Jaegeuk Kim]
-82728b8  f2fs: revisit error handling flows  [Jaegeuk Kim]
-bfbf801  f2fs: inject ENOSPC failures  [Jaegeuk Kim]
-16dbb7b  f2fs: inject page allocation failures  [Jaegeuk Kim]
-3386c52  f2fs: inject kmalloc failure  [Jaegeuk Kim]
-624f140  f2fs: add mount option to select fault injection ratio  [Jaegeuk Kim]
-0cee345  f2fs: use f2fs_grab_cache_page instead of grab_cache_page  [Jaegeuk Kim]
-8b43585  f2fs: introduce f2fs_kmalloc to wrap kmalloc  [Jaegeuk Kim]
-b344272  f2fs: add proc entry to show valid block bitmap  [Jaegeuk Kim]
-41b6928  f2fs: introduce macros for proc entries  [Jaegeuk Kim]
-24be6f9  f2fs: factor out fsync inode entry operations  [Jaegeuk Kim]
-14e282c  f2fs: fix to clear page private flag  [Jaegeuk Kim]
-9672c02  f2fs: fix to clear private data in page  [Jaegeuk Kim]
-c3276a1  f2fs: fix to return 0 if err == -ENOENT in f2fs_readdir  [Jaegeuk Kim]
-3d96a3a  f2fs: move node pages only in victim section during GC  [Jaegeuk Kim]
-4470722  f2fs: be aware of invalid filename length  [Jaegeuk Kim]
-145ab87  f2fs: issue cache flush on direct IO  [Jaegeuk Kim]
-adeaff5  f2fs: set fsync mark only for the last dnode  [Jaegeuk Kim]
-f383ee6  f2fs: report unwritten status in fsync_node_pages  [Jaegeuk Kim]
-b296a6e  f2fs: split sync_node_pages with fsync_node_pages  [Jaegeuk Kim]
-876544b  f2fs: avoid writing 0'th page in volatile writes  [Jaegeuk Kim]
-07b8599  f2fs: avoid needless lock for node pages when fsyncing a file  [Jaegeuk Kim]
-c86afb4  f2fs: flush dirty pages before starting atomic writes  [Jaegeuk Kim]
-30c4c05  f2fs: don't invalidate atomic page if successful  [Jaegeuk Kim]
-5e2b45c  f2fs: give -E2BIG for no space in xattr  [Jaegeuk Kim]
-052ce4a  f2fs: remove redundant condition check  [Jaegeuk Kim]
-31b0b12  f2fs: unset atomic/volatile flag in f2fs_release_file  [Jaegeuk Kim]
-ff08b35  f2fs: fix dropping inmemory pages in a wrong time  [Jaegeuk Kim]
-5e57f8b  f2fs: add BUG_ON to avoid unnecessary flow  [Jaegeuk Kim]
-513e6c2  f2fs: fix to convert inline directory correctly  [Jaegeuk Kim]
-4264a1c  f2fs: show current mount status  [Jaegeuk Kim]
-1927078  f2fs: treat as a normal umount when remounting ro  [Jaegeuk Kim]
-cbb0434  f2fs: give -EINVAL for norecovery and rw mount  [Jaegeuk Kim]
-c91b34b  f2fs: recover superblock at RW remounts  [Jaegeuk Kim]
-8d37c61  f2fs: give RO message when recovering superblock  [Jaegeuk Kim]
-   * packages/apps/Dialer/
-297bc8d  Fix NPE when checking default Dialer  [Gerrit Code Review]
-   * packages/apps/Snap/
-5baa12f  Revert "Revert "Snap: Don't use openLegacy()""  [Sultanxda]
-4372ec7  Snap: Check photo orientation when creating thumbnail  [Sultanxda]
-bf274ce  Snap: Only override power key  [Sultanxda]
-cd94cd8  Snap: Update comment to reflect audio focus changes  [Sultanxda]
-e0f5e4b  SnapdragonCamera: Release audio focus when video recording is done  [Sultanxda]
-36bbb68  SnapdragonCamera: request audio focus before starting video recording  [Sultanxda]
-cfdf3f2  SnapdragonCamera: Recording screen to be dynamic  [Sultanxda]
-1a91bfa  SnapdragonCamera: Fix the memory leak on view.  [Sultanxda]
-   * packages/services/Mms/
-50a85fe  Revert "MmsRequest: Turn on data for the MMS transaction if required"  [Ricardo Cerqueira]
-   * vendor/oneplus/
-e400a91  oneplus2: Import OnePlus2Oxygen_14_OTA_018_all_1605231631_OpenBeta2  [Willi Ye]
