@@ -14,7 +14,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Hammerhead Changelog"
-                description="See the changes we made for Hammerhead">https://raw.githubusercontent.com/OwnROM-Devices/OTA/master/changelogs/hammerhead.txt</ChangelogUrl>
+                description="See the changes we made for Hammerhead">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-mm/changelogs/hammerhead.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Open GApps"
