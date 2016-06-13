@@ -14,7 +14,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Bacon Changelog"
-                description="See the changes we made for Bacon">https://raw.githubusercontent.com/OwnROM-Devices/OTA/master/changelogs/bacon.txt</ChangelogUrl>
+                description="See the changes we made for Bacon">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-mm/changelogs/bacon.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
