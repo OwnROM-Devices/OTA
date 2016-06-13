@@ -14,7 +14,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Angler Changelog"
-                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/angler.txt</ChangelogUrl>
+                description="See the changes we made for Angler">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/own-mm/changelogs/angler.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
@@ -53,7 +53,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Shamu Changelog"
-                description="See the changes we made for Shamu">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/shamu.txt</ChangelogUrl>
+                description="See the changes we made for Shamu">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/own-mm/changelogs/shamu.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
@@ -88,7 +88,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="KLTE Changelog"
-                description="See the changes we made for KLTE">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/master/changelogs/klte.txt</ChangelogUrl>
+                description="See the changes we made for KLTE">https://raw.githubusercontent.com/OwnROM-Devices/ownrom-devices.github.io/own-mm/changelogs/klte.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
