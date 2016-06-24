@@ -1,392 +1,335 @@
 ====================
-     06-11-2016
+     06-23-2016
 ====================
 
-   * device/oneplus/bacon/
-1adb824  Merge branch 'cm-13.0' of https://github.com/cyanogenmod/android_device_oneplus_bacon into own-mm  [amardeep]
    * frameworks/av/
-0a17006  libmedia: Add 1440p camcorder quality  [amardeep]
+4cd3f17  libmedia: Add 1440p camcorder quality  [amardeep]
    * frameworks/base/
-9f84164  CamcorderProfile: Add 1440p camcorder profile  [amardeep]
-82416e8  update nl translation  [GitHub]
-   * packages/apps/Bluetooth/
-acfd7c3  Bluetooth-OPP: Check URI of sending files before entry cleanup  [Roman Birg]
-cf5fdf7  Set sJniAdapterServiceObj to NULL after deleting it  [Gerrit Code Review]
-02d9c10  Bluetooth: Using the eventHandler to start listener  [Roman Birg]
-5080b9b  Bluetooth OPP: Fix mismerge  [Roman Birg]
-072643f  Bluetooth: fix opp NPE  [Gerrit Code Review]
-   * packages/apps/Dialer/
-6f8f504  Ensure we have permissions before rebuilding database  [Stephen Bird]
-5287347  Increment nudge only after shown intent returns  [Stephen Bird]
-   * packages/apps/Messaging/
-c042a5e  Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml  [Gerrit Code Review]
-   * packages/apps/Nfc/
-01ba29d  Revert "Nfc: Clear transfer manager service on Destroy"  [Gerrit Code Review]
-606f7ef  Revert "nfc: create a bootstrap service"  [Roman Birg]
-   * packages/apps/OwnOTA/
-de6443c  last test  [OwnDoid]
-6184ba5  still testing  [askowndroid@gmail.com]
-237fe71  Testing android Git client  [OwnDroid]
-   * packages/apps/Profiles/
-92e7bb0  Revert "Ensures ProfileTrustAgent properly grants/revokes trust [1/2]"  [amardeep]
+6b100a3  CamcorderProfile: Add 1440p camcorder profile  [amardeep]
 
 ====================
-     06-10-2016
+     06-22-2016
 ====================
 
-   * android/
-495f974  Update Changelog.txt  [GitHub]
-   * art/
-ebb3a5e  art: Fix QCPERF workaround for ARM after Clang fixes  [Steve Kondik]
-fd80703  Enable clang for ARM builds.  [Steve Kondik]
-9805570  art: Re-enable host clang  [Steve Kondik]
-   * external/skia/
-b632abe  skia: qc-perf: link against libqc-opt for msm8937/17/53  [Ricardo Cerqueira]
-   * frameworks/base/
-346223a  Frameworks: Lockscreen blur & see through (1/2)  [OwnDroid]
-5e516d8  WallpaperCropper: use same action bar style as Launcher3  [OwnDroid]
-1537888  base: add keyguard support in WallpaperCropActivity  [OwnDroid]
-   * hardware/qcom/media-caf/msm8937/
-07f11ee  make: Fix up platform inclusion  [Ricardo Cerqueira]
-   * packages/apps/Bluetooth/
-9792f96  Revert "Ensure synchronized access of JNI callback object"  [Roman Birg]
-   * packages/apps/CellBroadcastReceiver/
-0b8b02b  Automatic translation import  [pinky@build01]
-   * packages/apps/Contacts/
-5307288  Automatic translation import  [pinky@build01]
-   * packages/apps/ContactsCommon/
-939ed41  Add valid number checks for block menu item  [Erica Chang]
-   * packages/apps/Dialer/
-49ee037  Automatic translation import  [pinky@build01]
-209c67b  Performance tweaks for DeepLinkCache and icon retrieval.  [Gerrit Code Review]
-   * packages/apps/InCallUI/
-2c9893f  Automatic translation import  [pinky@build01]
-   * packages/apps/Messaging/
-5203455  Automatic translation import  [pinky@build01]
-   * packages/apps/Screencast/
-3de1b3f  Automatic translation import  [pinky@build01]
-   * packages/apps/Settings/
-2f0107c  Lockscreen blur & see through (2/2)  [OwnDroid]
-d9cece2  LockscreenWallpaper: Use FB's WallpaperCropper  [OwnDroid]
-   * packages/providers/DataUsageProvider/
-ad02907  Automatic translation import  [pinky@build01]
-
-====================
-     06-09-2016
-====================
-
-   * device/qcom/common/
-97aa119  power-8992: Remove extraneous boosting  [Steve Kondik]
-ad90ded  power: Use declared enums where possible  [Gerrit Code Review]
-   * hardware/qcom/media-caf/msm8952/
-d81a756  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-ddeb931  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-   * hardware/qcom/media-caf/msm8974/
-ca99059  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Gerrit Code Review]
-eac7fd0  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-   * hardware/qcom/media-caf/msm8994/
-3eda402  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Gerrit Code Review]
-c08ba8c  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-   * hardware/qcom/media-caf/msm8996/
-d92e6d9  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Gerrit Code Review]
-726dddc  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-   * hardware/qcom/media/default/
-487da6e  mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-f0fb3c9  mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states  [Jessica Wagantall]
-   * packages/apps/Contacts/
-aa24ca6  Contacts : Remove silent option from ringtone  [Gerrit Code Review]
-   * packages/apps/Dialer/
-52cab04  Nudges: Move roaming nudge logic to wifi listener  [Gerrit Code Review]
-6a2124a  Initialize ContactsTile loader in SpeedDialFragment onStart  [Raj Yengisetty]
-   * packages/apps/LockClock/
-325513b  Unregister from WeatherManager ONLY if service was actually registered  [Luis Vidal]
-d9c5b0a  Report correct status if failed to process weather update request  [Luis Vidal]
-   * packages/apps/OwnOTA/
-a07d974  Add dutch translations  [OwnDroid]
-   * packages/apps/Settings/
-c19fa33  don't need this here  [OwnDroid]
-   * vendor/oneplus/
-14cee47  Merge pull request #29 from Grarak/cm-13.0  [ciwrl]
-16390ea  oneplus2: Remove few dpm blobs and sensors.hal.tof  [Willi Ye]
-
-====================
-     06-08-2016
-====================
-
-   * android/
-d39dc2d  Fix sync  [OwnDroid]
-4b40b69  Merge branch 'own-mm' of https://github.com/OwnROM/android into own-mm  [OwnDroid]
-22999db  Derp  [OwnDroid]
-14f37a8  Merge branch 'own-mm' of https://github.com/OwnROM/android into own-mm  [OwnDroid]
-77df133  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android into own-mm  [OwnDroid]
-3b7052a  default.xml: cm: Update to 6.0.1_r46  [Jessica Wagantall]
-   * build/
-b84580d  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into own-mm  [OwnDroid]
-9b017f9  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * external/libvpx/
-2246e67  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * frameworks/av/
-5257bfb  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_av into own-mm  [OwnDroid]
-fdc7d1f  Fixing ALOGE message in commit ad40e57890f81a3cf436c5f06da66396010bd9e5  [Jessica Wagantall]
-b3fbce1  MtpServer: Fix concurrent access to mStorages  [Tom Marshall]
-9bdc0f6  MTP: Fix crash when no storages are available  [Gerrit Code Review]
-80c362f  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * frameworks/base/
-a6274b7  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_base into own-mm  [OwnDroid]
-d76326b  Fix build  [OwnDroid]
-03ea311  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * frameworks/native/
-508eb77  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * hardware/qcom/audio-caf/msm8916/
-277f5f4  Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.14' into cm-13.0-caf-8916  [Ethan Chen]
-   * hardware/qcom/audio-caf/msm8952/
-51dff91  Merge remote-tracking branch 'caf/LA.BR.1.3.3_rb1.18' into cm-13.0-caf-8952  [Ethan Chen]
-   * hardware/qcom/display/
-6b48c2b  msm8226: comment out ifeq with missing endif  [Greg Wilard]
-   * hardware/qcom/media-caf/msm8916/
-69616e0  Merge remote-tracking branch 'caf/LA.BR.1.2.6_rb1.14' into cm-13.0-caf-8916  [Ethan Chen]
-   * hardware/qcom/media-caf/msm8952/
-1071714  DO NOT MERGE mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData  [Jessica Wagantall]
-3dd7332  DO NOT MERGE mm-video-v4l2: venc: add safety checks for freeing buffers  [Jessica Wagantall]
-cbc1231  DO NOT MERGE mm-video-v4l2: vidc: validate omx param/config data  [Jessica Wagantall]
-bb2d97a  DO NOT MERGE mm-video-v4l2: vdec: add safety checks for freeing buffers  [Jessica Wagantall]
-3325cfe  Merge remote-tracking branch 'caf/LA.BR.1.3.3_rb1.18' into cm-13.0-caf-8952  [Ethan Chen]
-   * hardware/qcom/media/default/
-e824046  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * kernel/oneplus/msm8974/
-ff9d1ba2  ASoC: msm: disable unwanted module  [Pat Erley]
-a9a6175  ASoC: msm: audio-effects: fix stack overread and heap overwrite  [Pat Erley]
-957d69d  prima: Fix buffer overwrite problem in CCXBEACONREQ  [Pat Erley]
-533f2a0  msm: kgsl: Cast perfcounter query count to an unsigned int  [Pat Erley]
-740e6f3  msm: kgsl: Add missing checks for alloc size and sglen  [Pat Erley]
-e1d1784  ASoC: msm: Add bounds checking to ADM get params  [Pat Erley]
-68aa568  ASoC: msm: qdsp6v2: Add check for DSP status before using the size  [Gerrit Code Review]
-fac441c  msm: mdss: fix possible out-of-bounds and overflow issue in mdp debugfs  [Gerrit Code Review]
-b248457  msm: camera: ispif: Validate VFE num input during reset  [Pat Erley]
-d3faccc  msm: camera: ispif: Validate VFE num input during reset  [Gerrit Code Review]
-   * packages/apps/Bluetooth/
-ef133b1  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * packages/apps/CellBroadcastReceiver/
-f54de60  fix Dutch translation - On vs Off  [Gerrit Code Review]
-   * packages/apps/InCallUI/
-7ce8323  Automatic translation import  [Gerrit Code Review]
-   * packages/apps/Messaging/
-b3585c8  PhoneUtils: Doublecheck that the system default is actually usable  [Ricardo Cerqueira]
-ca8ed52  Messaging: fix multi participant "always-ask" MSIM flow  [Ricardo Cerqueira]
-   * packages/apps/OwnOTA/
-8899c1c  Update README.md  [OwnDroid]
-8c158e2  Update README.md  [OwnDroid]
-f157372  Update README.md  [OwnDroid]
-18e620f  Update README.md  [OwnDroid]
-c9f9f60  Own-ify  [OwnDroid]
-934e478  Own-ify  [OwnDroid]
-   * packages/apps/PackageInstaller/
-b277701  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * packages/apps/Profiles/
-ea4e0f4  Ensures ProfileTrustAgent properly grants/revokes trust [1/2]  [Luis Vidal]
-   * packages/apps/Settings/
-8ac8fc4  ;Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Settings into own-mm  [OwnDroid]
-6aa0e8d  Add OwnOTA  [OwnDroid]
-6716780  Settings: use subid & imsi for MSIM apn lookups  [Gerrit Code Review]
-   * packages/apps/SoundRecorder/
-700fcdb  Stop audio playback/recording in LOSS_TRANSIENT mode  [Keith Mok]
-ee23f8e  Set notification to auto clean.  [Gerrit Code Review]
-   * packages/providers/TelephonyProvider/
-32c8322  TelephonyProvider: add apn lookup for imsi  [Roman Birg]
-   * packages/services/Telephony/
-e8439a8  Telephony: pass subscriber id to apn settings  [Gerrit Code Review]
-d24e2c9  Merge "Merge tag 'android-6.0.1_r46' into HEAD" into cm-13.0  [Gerrit Code Review]
-2dc2985  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * system/bt/
-600e1a9  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * system/core/
-b2eee55  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_system_core into own-mm  [OwnDroid]
-64caba3  Merge tag 'android-6.0.1_r46' into HEAD  [Jessica Wagantall]
-   * vendor/cmsdk/
-abb934e  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
-19de84c  cmsdk: LiveDisplay: Enforce dump permission  [Gerrit Code Review]
-7058902  CMSettingsProvider: Add coverage for CMSettings' interfaces.  [Adnan Begovic]
-8cbdd2a  CMSettingsProvider: Fix defaults test for DEV_FORCE_SHOW_NAVBAR.  [Adnan Begovic]
-cf8f5ce  CMSettingsProvider: Register as CMTS package.  [Adnan Begovic]
-7a48ce3  cmsdk: Add test package to CMTS targets.  [Adnan Begovic]
-fb0c037  cmsdk: Fix redundant case in themes contract's componentToImageColName.  [Adnan Begovic]
-39f0012  cmsdk: Provide themescontract tests.  [Gerrit Code Review]
-
-====================
-     06-07-2016
-====================
-
-   * android/
-b707314  Add OwnOTA back  [OwnDroid]
-   * build/
-a778042  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into own-mm  [OwnDroid]
-   * device/oppo/common/
-91ef956  Automatic translation import  [inky@build01]
-   * frameworks/base/
-423a82e  systemui: Fix compilation failure  [Diogo Ferreira]
-1b2a150  isRoaming: fix possible NPE  [Gerrit Code Review]
-eda4060  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_base into own-mm  [OwnDroid]
-fecebd8  Add missing resource lines  [OwnDroid]
-4073773  Revert "Revert "App sidebar: notify if app is not installed""  [OwnDroid]
-3d98dae  SystemUI: Add support for persistent usb drive notification.  [Gerrit Code Review]
    * frameworks/opt/telephony/
-a94ae66  DcTracker: use IMSI with APN lookup  [Roman Birg]
-   * packages/apps/BluetoothExt/
-559f783  Automatic translation import  [inky@build01]
-   * packages/apps/CMBugReport/
-1ed8ff0  Automatic translation import  [inky@build01]
-   * packages/apps/Calendar/
-bcc87f9  Automatic translation import  [inky@build01]
-   * packages/apps/CellBroadcastReceiver/
-6134363  Automatic translation import  [inky@build01]
-   * packages/apps/ContactsCommon/
-26fe569  Automatic translation import  [inky@build01]
-   * packages/apps/Dialer/
-fd13175  Automatic translation import  [inky@build01]
-054c1bb  Wire up share visible contacts  [Stephen Bird]
-   * packages/apps/InCallUI/
-919274a  InCallUI: Fix possible OOBs  [Gerrit Code Review]
-8ce4db2  Fix appearance of auxiliary circles in GlowPadView.  [Gerrit Code Review]
-   * packages/apps/LockClock/
-e28037a  Handle >5 forecast items in cLock Forecast view  [Danny Baumann]
-   * packages/apps/Messaging/
-4a0efca  Automatic translation import  [inky@build01]
-   * packages/apps/PhoneCommon/
-8e21a14  Automatic translation import  [inky@build01]
-   * packages/apps/Screencast/
-f934b05  Automatic translation import  [inky@build01]
-   * packages/apps/Settings/
-54dc1d4  Automatic translation import  [inky@build01]
-b2bff19  Implement OwnOTA into Device Info Settings  [OwnDroid]
-2832dda  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Settings into own-mm  [OwnDroid]
-   * packages/apps/SoundRecorder/
-f128234  Automatic translation import  [inky@build01]
-   * packages/apps/ThemeChooser/
-b95194d  Automatic translation import  [inky@build01]
-   * packages/providers/DataUsageProvider/
-a27755d  Automatic translation import  [inky@build01]
-   * packages/providers/WeatherProvider/
-09b9135  Automatic translation import  [inky@build01]
-   * packages/services/Telephony/
-e0196cc  Automatic translation import  [inky@build01]
-   * vendor/cmsdk/
-c45e01b  Automatic translation import  [inky@build01]
-621e25a  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
-   * vendor/ownrom/
-4186089  Build OwnOTA  [OwnDroid]
-4a014c5  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_vendor_cm into own-mm  [OwnDroid]
+b3d9061  Telephony Data: Introduce DataAllowed state  [Ricardo Cerqueira]
+9354bf6  Fix issue when two MMS requests with same priority on both SUB's  [Ricardo Cerqueira]
+   * hardware/qcom/audio-caf/msm8960/
+36aec39  hal: only open the amplifier once  [Matt Mower]
+2d69794  hal: enable amplifier earlier  [Matt Mower]
+dfe21b6  hal: Notify amplifier of device enable/disable  [Matt Mower]
+1170162  hal: Convert libaudioamp to audio_amplifier HAL  [Matt Mower]
 
 ====================
-     06-06-2016
-====================
-
-   * external/libnetfilter_conntrack/
-4d4cb7f  conntrack: Add kernel dependency  [Steve Kondik]
-   * kernel/oneplus/msm8974/
-970f292  mm, oom: base root bonus on current usage  [Steve Kondik]
-8a803ae  persistent_ram: check PERSISTENT_RAM_SIG before writing  [Steve Kondik]
-867e3ff  sysrq: Emergency Remount R/O in reverse order  [Steve Kondik]
-f30fe27  bacon: Defer MMC layer resume until I/O is requested  [Steve Kondik]
-5c06431  input: synaptics_dsx_i2c: Set IRQF_ONESHOT flag  [Steve Kondik]
-82b1ae6  arm: irq: warn only when affinity really breaks  [Steve Kondik]
-ea08c7c  arm: irq: Notify affinity change when migrating IRQs during hotplug  [Steve Kondik]
-bfb7539  arm: irq: Tone down kernel logging  [Steve Kondik]
-   * vendor/oneplus/
-cb5f9c4  Merge pull request #28 from Grarak/cm-13.0  [ciwrl]
-8ef1788  oneplus2: Import OnePlus2Oxygen_14_1606041303  [Willi Ye]
-
-====================
-     06-05-2016
-====================
-
-   * art/
-6aa5ad4  art: Only force-disable Clang use on ARM32+QCPERF  [Steve Kondik]
-1c392f0  ART: set the check_bail_out flag to false by default  [Steve Kondik]
-a85d319  setting RLIMIT to INFINITY.  [Steve Kondik]
-9179ac8  ART: make ART extension available only in 32bit  [Steve Kondik]
-   * build/
-8277466  Falling stars...  [OwnDroid]
-   * device/oneplus/bacon/
-cae9cb7  bacon: Add blobs for tether extensions  [Steve Kondik]
-87170a2  bacon: Disable memory compression  [Steve Kondik]
-   * device/qcom/common/
-674fb85  power-8952: Fix array initialization  [Ethan Chen]
-   * external/wpa_supplicant_8/
-41d4451  Merge branch 'LA.BF64.1.2.2_rb4.40' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0  [Steve Kondik]
-   * frameworks/base/
-28b56b6  Add option to disable scrolling cache [1/2]  [OwnDroid]
-   * kernel/oneplus/msm8974/
-f65545b  bacon: Update defconfig  [Steve Kondik]
-4972ca6  Merge branch 'linux-3.4.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable into cm-13.0  [Steve Kondik]
-bc89af2  Merge branch 'linux-3.4.y' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into cm-13.0  [Steve Kondik]
-   * packages/apps/OmniSwitch/
-b6c72b0  Add dutch(NL) translations  [OwnDroid]
-   * packages/apps/Settings/
-5da4a02  Reflect ownrom imports  [OwnDroid]
-ae0c6e8  Add option to disable scrolling cache [2/2]  [OwnDroid]
-   * vendor/cmsdk/
-70d3b76  cmsdk: Add binder transaction id tests for api 5 interfaces.  [Gerrit Code Review]
-   * vendor/oneplus/
-563c8cd  bacon: Update blobs  [Steve Kondik]
-
-====================
-     06-04-2016
+     06-21-2016
 ====================
 
    * android/
-28a0f44  Own-ify OmniSwitch repo  [OwnDroid]
-20b0a3d  Track our own AV  [OwnDroid]
-   * device/oneplus/bacon/
-57266cc  Merge remote-tracking branch 'cm/cm-13.0' into own-mm  [Akhil Narang]
+a18bc5d  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android into own-mm  [OwnDroid]
+f213c76  Switch to more up-to-date Uber Tool Chains  [GitHub]
+   * bootable/recovery/
+8e507d8  recovery: Initialize menu_show_start_ to avoid crash  [nadlabak]
+   * build/
+102d4e9  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into own-mm  [OwnDroid]
+   * cts/
+26069ff  merge in marshmallow-cts-release history after reset to marshmallow-cts-dev  [The Android Automerger]
+a286bc9  Merge "DO NOT MERGE: Bump CTS to 6.0R8" into marshmallow-cts-dev  [Gerrit Code Review]
+47de61a  DO NOT MERGE: Bump CTS to 6.0R8  [Daniel Xie]
+0963264  Merge "Merge \"Merge \\"DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8\\" into lollipop-cts-dev am: 68e28793a6  -s ours\" into lollipop-mr1-cts-dev am: bc927019d8  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+88c962c  Merge \"Merge \\"DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8\\" into lollipop-cts-dev am: 68e28793a6  -s ours\" into lollipop-mr1-cts-dev am: bc927019d8  -s ours  [android-build-merger]
+bc92701  Merge "Merge \"DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8\" into lollipop-cts-dev am: 68e28793a6  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+5216f5e  Merge \"DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8\" into lollipop-cts-dev am: 68e28793a6  -s ours  [android-build-merger]
+68e2879  Merge "DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8" into lollipop-cts-dev  [Gerrit Code Review]
+2624477  DO NOT MERGE ANYWHERE: Bump CTS to 5.0R8  [Daniel Xie]
+e864c88  Merge "DO NOT MERGE Updated the test to use Build.VERSION.SECURITY_PATCH Updated the test for June 2016" into marshmallow-cts-dev  [Gerrit Code Review]
+c43822b  DO NOT MERGE Updated the test to use Build.VERSION.SECURITY_PATCH Updated the test for June 2016  [Dave Weinstein]
+9fcf2d1  Merge "CameraIts: Use wait and notify for callback counter" into marshmallow-cts-dev  [Gerrit Code Review]
+a613cc4  Merge "Merge \"Revert \"Fix for ByodFlowTestActivity\"\" into lollipop-mr1-cts-dev am: 8f0c2f57cf" into marshmallow-cts-dev  [Gerrit Code Review]
+9205f90  Merge \"Revert \"Fix for ByodFlowTestActivity\"\" into lollipop-mr1-cts-dev am: 8f0c2f57cf  [android-build-merger]
+8f0c2f5  Merge "Revert "Fix for ByodFlowTestActivity"" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+30e4608  Revert "Fix for ByodFlowTestActivity"  [Daniel Xie]
+ae4ee1e  Merge "Fixing mnc byod build failures." into marshmallow-cts-dev  [Gerrit Code Review]
+d382f3c  Fixing mnc byod build failures.  [Daniel Xie]
+9502933  Merge "Relax checks in usb accessory test and add logs" into marshmallow-cts-dev  [Gerrit Code Review]
+cc4f1ca  Merge "Merge \"Merge \\"Merge \\\"DO NOT MERGE Add CTS for bug-15428797\\\" into kitkat-cts-dev am: 75c6dee114  -s ours\\" into lollipop-cts-dev am: 7342e25b39  -s ours\" into lollipop-mr1-cts-dev am: ef2e6a3698  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+900becf  Merge \"Merge \\"Merge \\\"DO NOT MERGE Add CTS for bug-15428797\\\" into kitkat-cts-dev am: 75c6dee114  -s ours\\" into lollipop-cts-dev am: 7342e25b39  -s ours\" into lollipop-mr1-cts-dev am: ef2e6a3698  -s ours  [android-build-merger]
+ef2e6a3  Merge "Merge \"Merge \\"DO NOT MERGE Add CTS for bug-15428797\\" into kitkat-cts-dev am: 75c6dee114  -s ours\" into lollipop-cts-dev am: 7342e25b39  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+a9809d6  Merge "Merge \"Merge \\"Merge \\\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\\" into kitkat-cts-dev am: e50ec09f51  -s ours\\" into lollipop-cts-dev am: 83b7fd487f  -s ours\" into lollipop-mr1-cts-dev am: da437175f1  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+3cb434d  Merge \"Merge \\"Merge \\\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\\" into kitkat-cts-dev am: e50ec09f51  -s ours\\" into lollipop-cts-dev am: 83b7fd487f  -s ours\" into lollipop-mr1-cts-dev am: da437175f1  -s ours  [android-build-merger]
+c15d8c7  Merge \"Merge \\"DO NOT MERGE Add CTS for bug-15428797\\" into kitkat-cts-dev am: 75c6dee114  -s ours\" into lollipop-cts-dev am: 7342e25b39  -s ours  [android-build-merger]
+2f2b1f7  Merge "Merge \"Merge \\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\" into lollipop-cts-dev am: 0404910bed  -s ours\" into lollipop-mr1-cts-dev am: 397f066e4a  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+1b253de  Merge "Merge \"Merge \\"DO NOT MERGE: CTS test case for CVE-2015-1532\\" into lollipop-cts-dev am: 15fe61b748  -s ours\" into lollipop-mr1-cts-dev am: 89039c7838  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+68a5deb  Merge "Merge \"Merge \\"DO NOT MERGE: Revert \\"Verifier: Enable and disable non-market apps\\" [DO NOT MERGE]\\" into lollipop-cts-dev am: c4d4802fc3  -s ours\" into lollipop-mr1-cts-dev am: 629fc1730f  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+7342e25  Merge "Merge \"DO NOT MERGE Add CTS for bug-15428797\" into kitkat-cts-dev am: 75c6dee114  -s ours" into lollipop-cts-dev  [Gerrit Code Review]
+da43717  Merge "Merge \"Merge \\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\" into kitkat-cts-dev am: e50ec09f51  -s ours\" into lollipop-cts-dev am: 83b7fd487f  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+1b2f238  Merge \"Merge \\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\" into lollipop-cts-dev am: 0404910bed  -s ours\" into lollipop-mr1-cts-dev am: 397f066e4a  -s ours  [android-build-merger]
+0c601b6  Merge \"Merge \\"DO NOT MERGE: CTS test case for CVE-2015-1532\\" into lollipop-cts-dev am: 15fe61b748  -s ours\" into lollipop-mr1-cts-dev am: 89039c7838  -s ours  [android-build-merger]
+8755754  Merge \"Merge \\"DO NOT MERGE: Revert \\"Verifier: Enable and disable non-market apps\\" [DO NOT MERGE]\\" into lollipop-cts-dev am: c4d4802fc3  -s ours\" into lollipop-mr1-cts-dev am: 629fc1730f  -s ours  [android-build-merger]
+7d67d3f  Merge \"Merge \\"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\\" into kitkat-cts-dev am: e50ec09f51  -s ours\" into lollipop-cts-dev am: 83b7fd487f  -s ours  [android-build-merger]
+000dee3  Merge \"DO NOT MERGE Add CTS for bug-15428797\" into kitkat-cts-dev am: 75c6dee114  -s ours  [android-build-merger]
+397f066  Merge "Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into lollipop-cts-dev am: 0404910bed  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+89039c7  Merge "Merge \"DO NOT MERGE: CTS test case for CVE-2015-1532\" into lollipop-cts-dev am: 15fe61b748  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+9a4cb39  Merge "Merge \"DO NOT MERGE: CTS test case for CVE-2015-1532\" into lollipop-mr1-cts-dev am: 304c6a29cd  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+629fc17  Merge "Merge \"DO NOT MERGE: Revert \"Verifier: Enable and disable non-market apps\" [DO NOT MERGE]\" into lollipop-cts-dev am: c4d4802fc3  -s ours" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+83b7fd4  Merge "Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into kitkat-cts-dev am: e50ec09f51  -s ours" into lollipop-cts-dev  [Gerrit Code Review]
+73711b9  Merge "Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into lollipop-mr1-cts-dev am: 7cd0cf6c48  -s ours" into marshmallow-cts-dev  [Gerrit Code Review]
+a7377c5  Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into lollipop-cts-dev am: 0404910bed  -s ours  [android-build-merger]
+7d2c66a  Merge \"DO NOT MERGE: CTS test case for CVE-2015-1532\" into lollipop-mr1-cts-dev am: 304c6a29cd  -s ours  [android-build-merger]
+07e6f59  Merge \"DO NOT MERGE: CTS test case for CVE-2015-1532\" into lollipop-cts-dev am: 15fe61b748  -s ours  [android-build-merger]
+c1dc212  Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into kitkat-cts-dev am: e50ec09f51  -s ours  [android-build-merger]
+d1df89d  Merge \"DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing\" into lollipop-mr1-cts-dev am: 7cd0cf6c48  -s ours  [android-build-merger]
+7a1b703  Merge \"DO NOT MERGE: Revert \"Verifier: Enable and disable non-market apps\" [DO NOT MERGE]\" into lollipop-cts-dev am: c4d4802fc3  -s ours  [android-build-merger]
+75c6dee  Merge "DO NOT MERGE Add CTS for bug-15428797" into kitkat-cts-dev  [Gerrit Code Review]
+c96517c  DO NOT MERGE Add CTS for bug-15428797  [Dave Weinstein]
+e50ec09  Merge "DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing" into kitkat-cts-dev  [Gerrit Code Review]
+0404910  Merge "DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing" into lollipop-cts-dev  [Gerrit Code Review]
+15fe61b  Merge "DO NOT MERGE: CTS test case for CVE-2015-1532" into lollipop-cts-dev  [Gerrit Code Review]
+304c6a2  Merge "DO NOT MERGE: CTS test case for CVE-2015-1532" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+7cd0cf6  Merge "DO NOT MERGE: CTS test case for verifying overflow in libskia JPG processing" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+86afa23  Merge "DO NOT MERGE CTS test case for verifying overflow in libskia JPG processing" into marshmallow-cts-dev  [Gerrit Code Review]
+1e6909c  DO NOT MERGE CTS test case for verifying overflow in libskia JPG processing  [Dave Weinstein]
+1d1d716  Merge "DO NOT MERGE Add CTS tests for Bug - 23034759 and Bug - 21132860" into marshmallow-cts-dev  [Gerrit Code Review]
+018a164  DO NOT MERGE Add CTS tests for Bug - 23034759 and Bug - 21132860  [Dave Weinstein]
+   * device/qcom/common/
+e1dbc22  power: msm8952: Fix previous_boost_time getting reset  [Ethan Chen]
+   * device/qcom/sepolicy/
+db6de0e  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_device_qcom_sepolicy into own-mm  [OwnDroid]
+22008e8  msm8937: Fix labeling of the cache and FRP partitions  [Ricardo Cerqueira]
    * external/stagefright-plugins/
-9db7a9c  stagefright-plugins: flac does not playback  [Keith Mok]
-   * frameworks/av/
-4d685b5  Forward Port: Add Camera sound toggle [3/3]  [OwnDroid]
+4c4ad3f  stagefright-plugins: call packet_queue_init earier  [Keith Mok]
    * frameworks/base/
-3e5cf00  Forward Port: Add Camera sound toggle [1/3]  [OwnDroid]
-a563b30  powermanager: Extend scope of lock when updating blocked UIDs  [Gerrit Code Review]
-28e023d  Only show keyguard panel if on lockscreen + no activity on top  [Gerrit Code Review]
-981a59d  SystemUI: Do not enable KeyguardBlur by default  [Michael Bestas]
-e49ebe6  Visualizer: Let visualizer fill the entire available screen  [Gerrit Code Review]
-ce01d29  SystemUI: fix toggling lockscreen rotation [1/3]  [Gerrit Code Review]
+ba54813  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_base into own-mm  [OwnDroid]
+4282864  Automatic translation import  [blinky@build01]
+   * frameworks/opt/telephony/
+3718ef2  Telephony: handle 3rd party sms apps + 'always ask'  [Roman Birg]
+   * hardware/broadcom/libbt/
+1415972  libbt-vendor (BRCM): Add ssr_cleanup  [Ethan Chen]
+   * hardware/qcom/audio-caf/msm8960/
+dbf1e5f  hal: Support the audio amplifier hook  [Matt Mower]
+   * packages/apps/BluetoothExt/
+a92c7d6  wipower: Only build a4wp if BSP is available  [Steve Kondik]
    * packages/apps/CMUpdater/
-4f02a9c  CMUpdater: Prevent NPE  [Michael W]
+1da35f8  Automatic translation import  [blinky@build01]
    * packages/apps/CellBroadcastReceiver/
-6bddeb7  Automatic translation import  [clyde@build01]
+7223f70  Automatic translation import  [blinky@build01]
    * packages/apps/Contacts/
-2453818  Automatic translation import  [clyde@build01]
+00ae48a  Automatic translation import  [blinky@build01]
    * packages/apps/Dialer/
-4893c00  Automatic translation import  [clyde@build01]
-18f2cb8  Fix outgoing call vibrate does not work  [Keith Mok]
-   * packages/apps/Gallery2/
-20be199  Gallery: Make sure no NPE happens  [Michael W]
+a907708  Automatic translation import  [blinky@build01]
    * packages/apps/InCallUI/
-c6cce58  Automatic translation import  [clyde@build01]
+9af9096  Automatic translation import  [blinky@build01]
+   * packages/apps/LockClock/
+932b0cc  Actually verifies if CM weather feature is available  [Luis Vidal]
+   * packages/apps/ManagedProvisioning/
+be01e94  Automatic translation import  [blinky@build01]
    * packages/apps/Messaging/
-d829188  Automatic translation import  [clyde@build01]
-   * packages/apps/OwnOTA/
-81938a1  Automated nightly translation import  [Akhil Narang]
+9986c0d  Automatic translation import  [blinky@build01]
    * packages/apps/Screencast/
-8af2ad3  Automatic translation import  [clyde@build01]
+7bc0763  Automatic translation import  [blinky@build01]
    * packages/apps/Settings/
-a35d16f  Forward Port: Add Camera sound toggle [2/3]  [OwnDroid]
-f6744a9  Radio info to control QC dbg prop's  [Gerrit Code Review]
-d6715b9  Automatic translation import  [clyde@build01]
-9af27ab  Settings: fix toggling lockscreen rotation toggle [2/3]  [Gerrit Code Review]
-   * packages/apps/SoundRecorder/
-368b858  Automatic translation import  [clyde@build01]
+c97e2cc  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Settings into own-mm  [OwnDroid]
+3ac588a  Fix power menu not showing  [OwnDroid]
+d40bcaf  Automatic translation import  [blinky@build01]
+5e05555  Fix FC on App Remover  [OwnDroid]
+   * packages/apps/TvSettings/
+55e73b5  Automatic translation import  [blinky@build01]
+   * packages/apps/WallpaperPicker/
+6cfca71  Automatic translation import  [blinky@build01]
+   * packages/inputmethods/LatinIME/
+884ca0d  Automatic translation import  [blinky@build01]
    * packages/providers/DataUsageProvider/
-45cab1e  Automatic translation import  [clyde@build01]
+260c7dc  Automatic translation import  [blinky@build01]
    * packages/services/Mms/
-c761197  MmsRequest: Reimplement automatic data sub switch  [Ricardo Cerqueira]
+56584b7  Revert "MmsRequest: Reimplement automatic data sub switch"  [Ricardo Cerqueira]
    * packages/services/Telephony/
-af093b1  Automatic translation import  [clyde@build01]
+c4fd682  Automatic translation import  [blinky@build01]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/
+acbecf7  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-5.x/
+ca1e674  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-6.x/
+8577079  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-7.0/
+05ead58  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
+8638c5b  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/
+630bfaa  Initial commit  [DespairFactor]
    * vendor/cmsdk/
-174f042  Automatic translation import  [clyde@build01]
-c4becbb  CMSettings: fix lock screen rotation toggle [3/3]  [Gerrit Code Review]
-   * vendor/oneplus/
-7ac57ca  Merge pull request #27 from Grarak/cm-13.0  [ciwrl]
+9b20549  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into own-mm  [OwnDroid]
    * vendor/ownrom/
-7e74703  Repo Own-ifying  [OwnDroid]
-278fa60  persist.dbg/data for radio to control QC prop's  [Gerrit Code Review]
-b538b7c  cm: enable lockscreen rotation option  [Gerrit Code Review]
+9c3b59a  Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_vendor_cm into own-mm  [OwnDroid]
+
+====================
+     06-20-2016
+====================
+
+   * android/
+25e8d27  Update Changelog.txt  [GitHub]
+   * cts/
+c4d4802  Merge "DO NOT MERGE: Revert "Verifier: Enable and disable non-market apps" [DO NOT MERGE]" into lollipop-cts-dev  [Gerrit Code Review]
+451712a  DO NOT MERGE: Revert "Verifier: Enable and disable non-market apps" [DO NOT MERGE]  [Daniel Xie]
+   * frameworks/base/
+b04202c  Add three-fingers-swipe to screenshot [2/2]  [OwnDroid]
+4dc0eb8  Powermenu screenshot delay [1/2]  [OwnDroid]
+87651a4  Wakelock Blocker [1/2]  [OwnDroid]
+   * hardware/qcom/audio-caf/msm8937/
+a11ff3c  ssr: Fix building with OSS materials  [Ricardo Cerqueira]
+   * packages/apps/Messaging/
+20ee26e  String improvements  [Michael Bestas]
+   * packages/apps/Settings/
+5524936  Settings : Move trust agent search index to LockscreenSettings  [Gerrit Code Review]
+17ba0a7  Add thre-fingers-swipe to screenshot [2/2]  [OwnDroid]
+871910e  Powermenu screenshot delay [2/2]  [OwnDroid]
+b0891d0  Fix wakeloklbkr layout  [OwnDroid]
+b26487e  Improve app remover layout & tint icon colors better for themers  [OwnDroid]
+3c80156  System App Remover  [OwnDroid]
+58dfd24  WakelockBlocker:Layout Improvements (See image below)  [OwnDroid]
+6b53d6d  Add Adaway into Settings  [OwnDroid]
+a1bc6c7  Wakelock Blocker [2/2]  [OwnDroid]
+   * vendor/ownrom/
+7320733  Some Adaway in the mix  [OwnDroid]
+
+====================
+     06-19-2016
+====================
+
+   * packages/apps/Settings/
+5004f92  Bring back the custom wallpaper picker [3/5]  [Clark Scheff]
+
+====================
+     06-18-2016
+====================
+
+   * android/
+560ea63  Bring back the custom wallpaper picker [4/5]  [Clark Scheff]
+   * frameworks/base/
+80b060d  Automatic translation import  [inky@build01]
+26079d3  SystemUI: detect rotation and resize mKeyguardBlur accordingly  [Gerrit Code Review]
+   * hardware/qcom/media-caf/msm8937/
+4b1c56f  venc: Disable building vqzip into the encoder for OSS  [Ricardo Cerqueira]
+   * packages/apps/AudioFX/
+c5f90c1  Automatic translation import  [inky@build01]
+   * packages/apps/Bluetooth/
+8fed12d  Automatic translation import  [inky@build01]
+   * packages/apps/BluetoothExt/
+cba6d27  Automatic translation import  [inky@build01]
+   * packages/apps/Camera2/
+b380209  Automatic translation import  [inky@build01]
+   * packages/apps/CellBroadcastReceiver/
+90661df  Automatic translation import  [inky@build01]
+   * packages/apps/CertInstaller/
+7fa38ad  Automatic translation import  [inky@build01]
+   * packages/apps/Contacts/
+dc8edef  Automatic translation import  [inky@build01]
+   * packages/apps/ContactsCommon/
+0dba8fb  Automatic translation import  [inky@build01]
+   * packages/apps/DeskClock/
+e12b243  Automatic translation import  [inky@build01]
+   * packages/apps/Dialer/
+8ecd4d5  Automatic translation import  [inky@build01]
+   * packages/apps/ExactCalculator/
+1992210  Automatic translation import  [inky@build01]
+   * packages/apps/InCallUI/
+c463e99  Automatic translation import  [inky@build01]
+   * packages/apps/LockClock/
+3e0e7fc  Verifies if weather service is available  [Luis Vidal]
+875f16e  Automatic translation import  [inky@build01]
+   * packages/apps/ManagedProvisioning/
+0ded606  Automatic translation import  [inky@build01]
+   * packages/apps/Messaging/
+315e824  Automatic translation import  [inky@build01]
+   * packages/apps/PackageInstaller/
+97c5c80  Automatic translation import  [inky@build01]
+   * packages/apps/PhoneCommon/
+6115331  Automatic translation import  [inky@build01]
+   * packages/apps/Profiles/
+c49a6d5  Automatic translation import  [inky@build01]
+   * packages/apps/Screencast/
+d297fad  Automatic translation import  [inky@build01]
+   * packages/apps/Settings/
+693ea85  Automatic translation import  [inky@build01]
+   * packages/apps/ThemeChooser/
+e7e52f8  Automatic translation import  [inky@build01]
+   * packages/apps/TvSettings/
+69224db  Automatic translation import  [inky@build01]
+   * packages/inputmethods/LatinIME/
+8695e12  Automatic translation import  [inky@build01]
+   * packages/providers/BookmarkProvider/
+b9f8899  Automatic translation import  [inky@build01]
+   * packages/providers/CallLogProvider/
+31525d6  Automatic translation import  [inky@build01]
+   * packages/providers/ContactsProvider/
+0747d2d  Automatic translation import  [inky@build01]
+   * packages/providers/DataUsageProvider/
+5178682  Automatic translation import  [inky@build01]
+   * packages/providers/TelephonyProvider/
+c8df0f0  Automatic translation import  [inky@build01]
+   * packages/providers/WeatherProvider/
+45460ca  Automatic translation import  [inky@build01]
+   * packages/services/Telecomm/
+2dca359  Automatic translation import  [inky@build01]
+   * packages/services/Telephony/
+e978c46  Automatic translation import  [inky@build01]
+   * vendor/cmsdk/
+46bed16  cmsdk: Prevent NPE in CMWeatherManager  [Gerrit Code Review]
+ee2dc2d  Automatic translation import  [inky@build01]
+   * vendor/ownrom/
+7454cd9  Bring back the custom wallpaper picker [5/5]  [Clark Scheff]
+
+====================
+     06-17-2016
+====================
+
+   * cts/
+a7c21fa  CameraIts: Use wait and notify for callback counter  [Chien-Yu Chen]
+dc1785f  Merge "Merge \"Fix for ByodFlowTestActivity\" into lollipop-mr1-cts-dev am: c3c02243b0" into marshmallow-cts-dev  [Gerrit Code Review]
+487cf29  Merge \"Fix for ByodFlowTestActivity\" into lollipop-mr1-cts-dev am: c3c02243b0  [android-build-merger]
+c3c0224  Merge "Fix for ByodFlowTestActivity" into lollipop-mr1-cts-dev  [Gerrit Code Review]
+   * frameworks/base/
+e843aaf  Fix NPE in DocumentsUI when rotate UI before format as internal  [Gerrit Code Review]
+226797c  Revert "Only show keyguard panel if on lockscreen + no activity on top"  [Gerrit Code Review]
+   * frameworks/native/
+2a2eaab  sf: Only apply hwrotation to primary displays  [Christopher N. Hesse]
+   * hardware/ti/omap4/
+8d0de83  cmhw: Use cmsdk FileUtils  [Dan Pasanen]
+   * packages/apps/FMRadio/
+4da63b5  FmService: Fix crash when plug-in/out headset  [Keith Mok]
+3f0054b  Revert "tracks: Check track states before transitioning states"  [Keith Mok]
+   * packages/apps/InCallUI/
+6877820  Fix call dialog not dismiss  [Keith Mok]
+   * packages/apps/Settings/
+a700fff  Settings: Apply decor padding in landscape storage wizard  [Gerrit Code Review]
+   * packages/services/Telecomm/
+9f030e6  Handle IllegalArgumentException while setting default calling sub  [Ethan Chen]
+   * vendor/cmsdk/
+b25a324  Weather API test: Wait for a bit before Mockito verifies if method was called  [Luis Vidal]
+3251a45  cmsdk: Increase flaky test tolerance on zenmode tests.  [Gerrit Code Review]
+9c42d41  ExtViews: Catch SecurityException due to bad interface  [Gerrit Code Review]
+0b76a46  cmsdk: Provide test coverage for remainder PartnerInterface's.  [Adnan Begovic]
+afa47a7  cmsdk: Provide remainder test coverage for CMStatusbarManager.  [Adnan Begovic]
+5d5e556  cmsdk: Provide remaining ProfileManager test coverage.  [Adnan Begovic]
+9b50627  cmsdk: Provide remaining Profile test coverage.  [Adnan Begovic]
+522b0c3  utils: Introduce FileUtils class  [Gerrit Code Review]
+
+====================
+     06-16-2016
+====================
+
+   * build/
+8019126  Conditionally skip dex-preopting specific prebuilts.  [Ricardo Cerqueira]
+   * cts/
+b52d1cf  Merge "Allows ENOSYS errno code for doVrootTest." into marshmallow-cts-dev  [Gerrit Code Review]
+   * development/
+87654bc  gdbclient: fix gdbclient <processname> invocation  [Khalid Zubair]
+   * packages/apps/InCallUI/
+7a3316a  Explicitly set the visibility of right_icon within call notification  [Rohit Yengisetty]
+   * packages/apps/Settings/
+be7d45f  Settings: Dissallow privacy guarding system apps on overlay.  [Gerrit Code Review]
+   * packages/services/Telephony/
+0ef4188  Telephony: change input type to phone for my phone no.  [Keith Mok]
+   * vendor/cmsdk/
+3f8b3b3  Provide remaining Weather API test coverage  [Luis Vidal]
+c701b8e  CMSDK : Add tests for ColorUtils  [Danesh M]
+60c6053  CMSDK : Fix external view test  [Gerrit Code Review]
+912410f  CMSDK : Add LiveLockScreenManager tests  [Danesh M]
