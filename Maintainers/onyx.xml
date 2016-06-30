@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <bacon>
+        <onyx>
             <Filename>OwnROM-OFFICIAL-Nightly-v3.0-onyx-20160630.zip</Filename>
             <NewRomUrl
                 id="newrom"
@@ -15,7 +15,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Onyx Changelog"
-                description="See the changes we made for Bacon">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-mm/changelogs/onyx.txt</ChangelogUrl>
+                description="See the changes we made for Onyx">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-mm/changelogs/onyx.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Dynamic Gapps"
@@ -23,7 +23,7 @@
             <TwrpUrl
                 id="twrp"
                 title="TWRP Recovery"
-                description="Download latest TWRP Recovery for Bacon">https://dl.twrp.me/bacon/</TwrpUrl>
+                description="Download latest TWRP Recovery for Onyx">https://dl.twrp.me/onyx/</TwrpUrl>
           <XDAUrl
                 id="xda"
                 title="XDA"
