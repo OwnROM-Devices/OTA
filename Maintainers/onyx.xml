@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <bacon>
+            <Filename>OwnROM-OFFICIAL-Nightly-v3.0-onyx-20160630.zip</Filename>
+            <NewRomUrl
+                id="newrom"
+                title="Latest OwnROM"
+                description="Download Latest OwnROM Nightly Build">https://www.androidfilehost.com/?fid=24591000424943580</NewRomUrl>
+            <RomUrl
+                id="rom"
+                title="OwnROM Nightlies"
+                description="Browse and download other OwnROM Nightly Builds">https://www.androidfilehost.com/?w=files&amp;flid=71781</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Onyx Changelog"
+                description="See the changes we made for Bacon">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-mm/changelogs/onyx.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Dynamic Gapps"
+                description="Download latest Dynamic G-apps by banks">https://www.androidfilehost.com/?w=files&amp;flid=41020</GappsUrl>
+            <TwrpUrl
+                id="twrp"
+                title="TWRP Recovery"
+                description="Download latest TWRP Recovery for Bacon">https://dl.twrp.me/bacon/</TwrpUrl>
+          <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OwnOnyx XDA thread">http://forum.xda-developers.com/oneplus-x/development/rom-ownrom-v3-0-t3408499</XDAUrl>
+            <MaintainUrl
+                id="Maintainer"
+                title="Subhrajyoti Sen (SubhrajyotiSen)"
+                description="Maintainer for OwnOnyx">https://plus.google.com/u/0/+subhrajyotisen12/posts</MaintainUrl>
+            <GplusUrl
+                id="Gplus"
+                title="OwnDroid G+"
+                description="Visit our Google Plus comunity">https://plus.google.com/communities/108869588356214314591</GplusUrl>
+	    </bacon>
+   </Stable>
+</SlimOTA>
