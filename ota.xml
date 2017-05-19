@@ -1,0 +1,10 @@
+<OTACenter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+  <Stable>
+    <angler>
+      <Filename>OwnROM-OFFICIAL-v4.0-angler-20170514.zip</Filename>
+        <DownloadUrl>
+        https://www.androidfilehost.com/?fid=673368273298954670
+        </DownloadUrl>
+      </angler>
+   </Stable>
+</OTACenter>
