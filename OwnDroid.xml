@@ -1,25 +1,33 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-	      <angler>
-            <Filename>OwnROM-OFFICIAL-v4.0-angler-20170513.zip</Filename>
-            <BuildUrl
-            	id="build"
-            	title="LatestBuild"
-            	description="Download Latest Build">https://www.androidfilehost.com/?fid=673368273298954670</BuildUrl>
-            <RomUrl
-                id="rom"
-                title="Rom"
-                description="Download OwnROM builds">https://www.androidfilehost.com/?w=files&amp;flid=53781</RomUrl>
-            <ChangelogUrl
-                id="changelog"
-                title="Changelog"
-                description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml</ChangelogUrl>
-            <GappsUrl
-            	id="gapps"
-            	title="GApps"
-            	description="Download latest GApps">http://opengapps.org/</GappsUrl>
-	      </angler>
+	<angler>
+		<Filename>OwnROM-OFFICIAL-v4.0-angler-20170513.zip</Filename>
+            		<BuildUrl
+				id="build"
+				title="LatestBuild"
+				description="Download Latest Build">https://www.androidfilehost.com/?fid=673368273298954670
+			</BuildUrl>
+            		<RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://www.androidfilehost.com/?w=files&amp;flid=53781
+			</RomUrl>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+            		<GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+	    		<VendorUrl
+				id="vendors"
+				title="Vendors"
+				description="Download latest vendors for N6p">https://www.androidfilehost.com/?w=files&amp;flid=180493
+			</VendorUrl>
+	 </angler>
     </Stable>
 </SlimOTA>
