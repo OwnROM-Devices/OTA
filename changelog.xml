@@ -1,7 +1,104 @@
 ====================
+     05-25-2017
+====================
+
+   * android/
+88701a0  cm.xml: Track own CMParts  [OwnDroid]
+   * packages/apps/CMParts/
+b717b22  CMParts: Remove Statusbar Settings from Dashboard  [OwnDroid]
+   * packages/apps/OwnSettings/
+7bb8e18  OwnCenter: Add OnePlus3 Maintainer  [OwnDroid]
+f403733  OwnSettings: #DerpLife  [OwnDroid]
+
+====================
+     05-24-2017
+====================
+
+   * frameworks/base/
+31a4a89  Update Own Platlogo  [OwnDroid]
+   * packages/apps/OwnSettings/
+522b949  OwnCenter: Add Designer to the team  [OwnDroid]
+3782b55  OwnCenter: Add OnePlus2 Maintainer  [OwnDroid]
+eadd58a  OwnCenter: Add Potter Maintainer  [OwnDroid]
+076eddb  OwnCenter: Add Harpia Maintainer  [OwnDroid]
+d976c9e  OwnCenter: Add A7010a48 Maintainer  [OwnDroid]
+e552be3  OwnCenter: Rename Icon  [OwnDroid]
+37b062a  OwnCenter: Add d852 maintainer and Website developer  [OwnDroid]
+191d431  OwnSettings: Change OwnCenter Icon  [OwnDroid]
+   * packages/apps/Settings/
+d19dcf7  Settings: New upgraded OwnIcon for OwnSettings  [OwnDroid]
+
+====================
+     05-23-2017
+====================
+
+   * packages/apps/OwnSettings/
+1c1202a  OwnCenter: Sepperate tabs for Team and Maintainers  [OwnDroid]
+a827f40  OwnCenter: Add summary for Updater  [OwnDroid]
+
+====================
+     05-22-2017
+====================
+
+   * android/
+980e220  Default.xml: Add OwnOTA to the mix  [OwnDroid]
+   * packages/apps/OwnSettings/
+bd2b882  Nothing to tell  [OwnDroid]
+e16049c  OwnSettings: Add OwnWallpapers entry into OTA tab  [OwnDroid]
+27469df  OwnSettings: Add entry for OwnOTA  [OwnDroid]
+a884c2e  OwnSettings: Rename Links tab to OTA  [OwnDroid]
+   * vendor/ownrom/
+7181279  Common.mk: Build OwnOTA  [OwnDroid]
+ad914ed  Add prop for Updater  [OwnDroid]
+
+====================
+     05-21-2017
+====================
+
+   * packages/apps/Settings/
+58ee551  About Device: CPU&RAM Fix wierd text in English(US)  [OwnDroid]
+
+====================
+     05-20-2017
+====================
+
+   * packages/apps/Settings/
+c10b80a  Add extra dir level to Own Proguard.flags  [OwnDroid]
+
+
+====================
+     05-18-2017
+====================
+
+   * packages/apps/OwnSettings/
+3376438  OwnCenter: Add code icon for team page  [OwnDroid]
+483560c  Revert "Vectorize all OwnSettings icons"  [OwnDroid]
+018cc82  Fixes  [OwnDroid]
+bf6b193  AboutOwnROM: Change name to OwnROM Center part 2  [OwnDroid]
+67a9d8b  Rename Maintainers to Team  [OwnDroid]
+859a023  Vectorize all OwnSettings icons  [OwnDroid]
+61fd1b1  AboutOwnROM: Change name to OwnROM Center  [OwnDroid]
+   * packages/apps/Settings/
+85ef66d  Vectorize Themes icon  [OwnDroid]
+
+====================
+     05-17-2017
+====================
+
+   * packages/apps/OwnSettings/
+369d432  About OwnROM: Make Maintainers Clickable  [OwnDroid]
+69780c6  About OwnROM: Add OwnDroid Website link  [OwnDroid]
+cea316c  Add About OwnROM Section & Make it tabbed  [OwnDroid]
+
+
+====================
      05-14-2017
 ====================
 
+   * frameworks/base/
+03d1e44  NetworkTraffic: Enable color customizations  [OwnDroid]
+   * packages/apps/OwnSettings/
+424c6c3  NetworkTraffic: Enable Color Customizations [1/2]  [OwnDroid]
    * vendor/ownrom/
 819e6c9  Change Default Wallpaper  [OwnDroid]
 
@@ -10,22 +107,8 @@
 ====================
 
    * frameworks/base/
-03d1e44  NetworkTraffic: Enable color customizations  [OwnDroid]
 ccb3e49  Immersive Recents [1/2]  [OwnDroid]
 8b39c5a  Base: SQUASHED Add animations & Interpolators to QS tiles[2/2]  [OwnDroid]
-   * packages/apps/OwnSettings/
-424c6c3  NetworkTraffic: Enable Color Customizations [1/2]  [OwnDroid]
-f6313a5  OwnSettings: Immersive Recents [2/2]  [OwnDroid]
-c12ea70  OwnSettings: SQUASHED Add animations & Interpolators to QS tiles[1/2]  [OwnDroid]
-93442ab  OwnSettings: Add QS tab in Animations Category  [OwnDroid]
-2f8f62b  Powermenu: Clean up  [OwnDroid]
-10d4d27  Colorpicker: Add missing strings  [OwnDroid]
-
-====================
-     05-12-2017
-====================
-
-   * frameworks/base/
 821f819  FWBase: Add 7 more power menu animations [1/2]  [OwnDroid]
 6594dab  Get the reboot menus to follow power menu animations previously merged  [OwnDroid]
 80af5ed  Rotation anim to Power and reboot menu [1/2]  [OwnDroid]
@@ -34,6 +117,11 @@ c12ea70  OwnSettings: SQUASHED Add animations & Interpolators to QS tiles[1/2]  
 68eb0c3  Add Necesarry Imports for Color Picker  [OwnDroid]
 7cff3e2  SystemUI: Add Own Icon for future use  [OwnDroid]
    * packages/apps/OwnSettings/
+f6313a5  OwnSettings: Immersive Recents [2/2]  [OwnDroid]
+c12ea70  OwnSettings: SQUASHED Add animations & Interpolators to QS tiles[1/2]  [OwnDroid]
+93442ab  OwnSettings: Add QS tab in Animations Category  [OwnDroid]
+2f8f62b  Powermenu: Clean up  [OwnDroid]
+10d4d27  Colorpicker: Add missing strings  [OwnDroid]
 873a18c  OwnSettings: Add 7 more power menu animations [2/2]  [OwnDroid]
 32e0c11  OwnSettings: Rotation anim to Power and reboot menu [2/2]  [OwnDroid]
 fbf3155  OwnSettings: Powermenu animations[2/2]  [OwnDroid]
@@ -41,20 +129,13 @@ fbf3155  OwnSettings: Powermenu animations[2/2]  [OwnDroid]
 6303c5b  SQUASH:Include color picker, (2/2):  [OwnDroid]
 9b9741b  Arange some strings  [OwnDroid]
 
-====================
-     05-11-2017
-====================
-
-
-====================
-     05-10-2017
-====================
-
 
 ====================
      05-09-2017
 ====================
 
+   * packages/apps/Settings/
+153f245  Add Cpu & Mem Info  [OwnDroid]
 
 ====================
      05-08-2017
@@ -83,7 +164,6 @@ dba1c23  wiki: Tweak GitHub link  [Harry Youd]
    * packages/apps/PhoneCommon/
 2ed530c  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into own-n  [OwnDroid]
    * packages/apps/Settings/
-153f245  Add Cpu & Mem Info  [OwnDroid]
 082c60b  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into own-n  [OwnDroid]
    * system/core/
 1bdffc4  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into own-n  [OwnDroid]
@@ -123,6 +203,8 @@ a5da2d3  mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile  [Brinly Taylo
    * lineage/jenkins/
 ceb3679  Disable v521  [Michael Bestas]
 109948c  Readd ether  [Michael Bestas]
+   * lineage/wiki/
+7b181fd  wiki: Build: Update build instructions for Ubuntu  [Simon Shields]
 
 ====================
      05-06-2017
@@ -131,7 +213,6 @@ ceb3679  Disable v521  [Michael Bestas]
    * lineage/website/
 8f8a440  www/community: Small fixes  [Harry Youd]
    * lineage/wiki/
-7b181fd  wiki: Build: Update build instructions for Ubuntu  [Simon Shields]
 79eb2df  wiki: HTTPS-ise some links  [Simon Shields]
 
 ====================
@@ -152,6 +233,8 @@ f0932d0  cve_tracker: Restore tsubasa in android_kernel_sony_msm8x60  [Adrian DC
 
    * bootable/recovery/
 616bf9a  recovery: Fix event system  [Tom Marshall]
+   * frameworks/av/
+faa8b85  seccomp: Fix policy for ffmpeg  [Michael Bestas]
    * frameworks/base/
 ef2b1bd  Revert "Include color picker, (1/2)"  [OwnDroid]
 1a9ca65  Revert "Add Necesarry Imports for Color Picker"  [OwnDroid]
@@ -159,6 +242,7 @@ ef2b1bd  Revert "Include color picker, (1/2)"  [OwnDroid]
 786aa23  www: Minor corrections  [Harry Youd]
    * lineage/wiki/
 47ffb8b  wiki: Build: Some corrections  [Michael W]
+28704f5  devices: Update Z00A/Z008 maintainers  [Bruno Martins]
    * packages/apps/OwnSettings/
 7502c55  OwnSettings: Add membar to recents options [2/2]  [OwnDroid]
 d256bdc  Command out Quick Settings category  [OwnDroid]
@@ -173,17 +257,26 @@ cfc6ef4  [2/3] OwnSettings: Add ability to permanently hide apps from recents  [
      05-03-2017
 ====================
 
-   * frameworks/av/
-faa8b85  seccomp: Fix policy for ffmpeg  [Michael Bestas]
+   * art/
+8b0b730  runtime: arch: support kryo for 32 bit  [Rashed Abdel-Tawab]
+   * bionic/
+22d6b5b  libc: ARM: Add 32-bit Kryo memcpy  [Rashed Abdel-Tawab]
+45a3987  libc: use Cortex-A7/A53 memset on Kryo  [Rashed Abdel-Tawab]
+ba97f82  Add kryo support.  [Rashed Abdel-Tawab]
+   * bootable/recovery/
+8011e66  recovery: Fix UI freezing  [Tom Marshall]
    * lineage/jenkins/
 2567151  Disable mako builds  [Tom Powell]
+   * lineage/updater/
+ca277fa  Add natrium to devices list  [LuK1337]
    * lineage/website/
 517c3ea  Changelog #8 - May ASB, Jelly, Donations and More Servers (W/C 18th April)  [Harry Youd]
    * lineage/wiki/
-28704f5  devices: Update Z00A/Z008 maintainers  [Bruno Martins]
 e3dd26e  devices: asus: Add recovery install instructions  [Bruno Martins]
 d5a2665  us996: typo fixed from us995  [Michael Bestas]
 d1a713f  devices: Add HTC One A9 (hiaeul and hiauhl variants)  [Harry Youd]
+8149598  Correct device kernels  [Michael Bestas]
+d93cd8d  Add Mi 5s Plus device page  [Michael Bestas]
    * packages/apps/Trebuchet/
 c69c736  Trebuchet: Add Jelly to hotseat  [Arne Coucheron]
 
@@ -194,14 +287,7 @@ c69c736  Trebuchet: Add Jelly to hotseat  [Arne Coucheron]
    * android/
 fc78b86  manifest: android-7.1.2_r2 -> android-7.1.2_r8  [Dan Pasanen]
 9182986  android: nuke browser, welcome jelly  [Michael Bestas]
-   * art/
-8b0b730  runtime: arch: support kryo for 32 bit  [Rashed Abdel-Tawab]
-   * bionic/
-22d6b5b  libc: ARM: Add 32-bit Kryo memcpy  [Rashed Abdel-Tawab]
-45a3987  libc: use Cortex-A7/A53 memset on Kryo  [Rashed Abdel-Tawab]
-ba97f82  Add kryo support.  [Rashed Abdel-Tawab]
-   * bootable/recovery/
-8011e66  recovery: Fix UI freezing  [Tom Marshall]
+8f9085b  Sync contributors cloud generator and random scripts  [Michael Bestas]
    * build/
 a73f68a  Merge tag 'android-7.1.2_r8' into cm-14.1  [Dan Pasanen]
 dd1d7ca  Revert "We want Browser"  [Michael Bestas]
@@ -225,17 +311,20 @@ e7d8cf6  config: cm-14.1: add Jelly, remove Browser  [Michael Bestas]
    * lineage/cve/
 11ae5e9  cve_tracker: Fix header and style  [Michael W]
 44ffe83  cve_tracker: Fix back-links  [Michael W]
+490caa6  cve_tracker: Add CVE-Status  [Michael W]
    * lineage/jenkins/
 e8b98ef  Ship natrium  [LuK1337]
+   * lineage/mirror/
+fc60f8a  mirror: Updated to 01-May-17 16:52 UTC  [Tim Schumacher]
+   * lineage/scripts/
+ceb8610  Add maintainers.sh script  [Harry Youd]
+01a4ebe  Initial empty repository  [Gerrit Code Review]
    * lineage/updater/
-ca277fa  Add natrium to devices list  [LuK1337]
 9b97267  Add missing V20 devices and fix ha3g/lt02ltespr  [Michael Bestas]
 7cfcd77  Fix some LG devices out of order  [Martin Bouchet]
 718b37b  Add Samsung Galaxy Tab 3 7.0 (Sprint)  [Simon Shields]
 82f3f5c  Add exynos Samsung Galaxy Note 3 (ha3g)  [Martin Bouchet]
    * lineage/wiki/
-8149598  Correct device kernels  [Michael Bestas]
-d93cd8d  Add Mi 5s Plus device page  [Michael Bestas]
 24b9b43  w7: update maintainers  [Bruno Martins]
 e9287a3  wiki: add LG V20 pages  [Michael Bestas]
    * system/bt/
@@ -251,18 +340,15 @@ d7cbf4b  Merge tag 'android-7.1.2_r8' into cm-14.1  [Dan Pasanen]
      05-01-2017
 ====================
 
-   * android/
-8f9085b  Sync contributors cloud generator and random scripts  [Michael Bestas]
    * lineage/cve/
-490caa6  cve_tracker: Add CVE-Status  [Michael W]
+6ac1e8f  cve_tracker: Minor code fixes  [Michael W]
    * lineage/mirror/
-fc60f8a  mirror: Updated to 01-May-17 16:52 UTC  [Tim Schumacher]
 892f549  mirror: Fix heading and script name  [Tim Schumacher]
-   * lineage/scripts/
-ceb8610  Add maintainers.sh script  [Harry Youd]
-01a4ebe  Initial empty repository  [Gerrit Code Review]
+a438997  mirror: Add mirror-regen script  [Tim Schumacher]
    * lineage/wiki/
 6edc3bd  Add install method to a few devices  [Michael Bestas]
+   * system/extras/su/
+7344440  su: Don't start daemon for adb only mode  [Gabriele M]
 
 ====================
      04-30-2017
@@ -284,14 +370,8 @@ bdb9183  fix foreground process will be mistakenly killed when it uses content p
 105067d  fix system_server crash issue caused by fd leak.  [Joey Rizzoli]
 eefd167  base: LocationTile detail  [Joey Rizzoli]
 9b53c38  We are OwnROM  [OwnDroid]
-   * lineage/cve/
-6ac1e8f  cve_tracker: Minor code fixes  [Michael W]
-   * lineage/mirror/
-a438997  mirror: Add mirror-regen script  [Tim Schumacher]
    * lineage/website/
 08b1330  www: add PayPal link to footer  [Harry Youd]
-   * system/extras/su/
-7344440  su: Don't start daemon for adb only mode  [Gabriele M]
    * vendor/ownrom/
 ca8cd53  cm: Remove obsolete and unused overlays and configs  [Arne Coucheron]
 
@@ -314,6 +394,8 @@ d17952e  Automatic translation import  [Abhisek Devkota]
 423429e  add maven to build slaves  [Tom Powell]
    * lineage/jenkins/
 1f17253  hudson: Remove nicki (Sony Xperia M)  [Abhisek Devkota]
+   * lineage/updater/
+334b331  Add Galaxy S4 Mini Dual SIM (serranodsdd)  [Arne Coucheron]
    * lineage/wiki/
 010a69a  wiki: Remove nicki maintainers (Sony Xperia M)  [Abhisek Devkota]
    * packages/apps/CMParts/
@@ -359,8 +441,8 @@ d67ef78  addonsu: Add Lineage version to zip name  [Michael Bestas]
 4af54ad  [1/3] fwb: Add ability to permanently hide apps from recents  [OwnDroid]
    * lineage/jenkins/
 e28728a  hudson: Add more V20 variants  [Rashed Abdel-Tawab]
-   * lineage/updater/
-334b331  Add Galaxy S4 Mini Dual SIM (serranodsdd)  [Arne Coucheron]
+   * lineage/mirror/
+2d24faf  mirror: Updated to 27-Apr-17 14:40 UTC  [Tim Schumacher]
    * lineage/wiki/
 1bd39c3  wiki: costs: Update permalink  [Michael W]
 51769d8  Update costs, add paypal  [Tom Powell]
@@ -384,10 +466,9 @@ fe90135  Revert "SystemUI: [RJIL new function] AutoBrightness"  [Michael Bestas]
 b980733  Include lzop and lz4 on build systems  [Scott Warner]
    * lineage/crowdin/
 4e67ee2  config: cm-14.1: Add missing dash to fix sync of CMParts  [Elektroschmock]
-   * lineage/mirror/
-2d24faf  mirror: Updated to 27-Apr-17 14:40 UTC  [Tim Schumacher]
    * lineage/wiki/
 c235912  devices: Add ha3g  [Simon Shields]
+d5769e0  wiki: Cleanup erroneous 'lte' device field  [Adrian DC]
    * packages/apps/Settings/
 df80559  Revert "Settings: Lost cached BT devices in found devices list"  [Michael Bestas]
 9663c31  Settings[Wifi]: fix the input invalid length for WEP encryption.  [Michael Bestas]
@@ -400,6 +481,10 @@ df80559  Revert "Settings: Lost cached BT devices in found devices list"  [Micha
      04-26-2017
 ====================
 
+   * build/
+3c70307  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into own-n  [OwnDroid]
+   * device/huawei/angler/
+e38e1ba  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_huawei_angler into own-n  [OwnDroid]
    * frameworks/base/
 18e6a9c  FWB:Add Network Traffic Missing Import & Fix Arrow Hiding  [OwnDroid]
 0d7b05d  Hide arrows in network traffic indicators [1/2]  [OwnDroid]
@@ -412,31 +497,6 @@ b9180e5  [1/2] TrafficMeter: added option for auto-hiding on inactivity  [OwnDro
 c63ea26  [1/2] SystemUI: Network speed indicator  [OwnDroid]
 c9eb6a7  Add Necesarry Imports for Color Picker  [OwnDroid]
 be1cb12  Include color picker, (1/2)  [OwnDroid]
-   * hardware/qcom/audio-caf/msm8996/
-6bace74  msm8996: audio: Add l/r mic swapping when using stereo mics  [Rashed Abdel-Tawab]
-   * lineage/jenkins/
-ed1792a  Add ha3g  [Sean hoyt]
-   * lineage/wiki/
-d5769e0  wiki: Cleanup erroneous 'lte' device field  [Adrian DC]
-   * packages/apps/Settings/
-b4edeac  [SQUASHED]SeekBarPreferenceCham: Expand with buttons  [OwnDroid]
-2936e67  Settings: add SeekBarPreference  [OwnDroid]
-   * packages/apps/ThemeInterfacer/
-9936dc3  README: Recommend Interfacer be put in the services folder  [Nathan Chancellor]
-   * packages/apps/Trebuchet/
-c9e7654  Trebuchet: Do not crash if normalized string for sorting is empty  [Adrian DC]
-
-====================
-     04-25-2017
-====================
-
-   * android/
-6a4b128  Merge branch 'cm-14.1' of https://github.com/LineageOS/android into own-n  [OwnDroid]
-   * build/
-3c70307  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into own-n  [OwnDroid]
-   * device/huawei/angler/
-e38e1ba  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_huawei_angler into own-n  [OwnDroid]
-   * frameworks/base/
 d183b09  am: Handle unchecked activity starts for protected components (2)  [Dan Pasanen]
 9cffad5  fix wrong algorithm in WifiPowerPerPacket()  [Dan Pasanen]
 8821eda  Fix build after 7.1.2 merge  [OwnDroid]
@@ -445,36 +505,26 @@ eb48cad  Build fix  [OwnDroid]
 aeff3c1  Add protected broadcast for app crash broadcast  [OwnDroid]
 1069137  Themes: Allow volume slider and thumb to work with custom images.  [OwnDroid]
 c8ff5ba  Separate tile label color from icon drawable color  [OwnDroid]
-cc5a25f  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into own-n  [OwnDroid]
-   * frameworks/native/
-582a32f  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into own-n  [OwnDroid]
    * frameworks/opt/telephony/
 bc43228  Create cdma dummy apns.  [Dan Pasanen]
-   * lineage/updater/
-ff8cba2  Regenerate device dependencies  [Tom Powell]
-   * lineage/wiki/
-49d45f4  n1awifi: Remove old maintainer  [Sean hoyt]
-   * packages/apps/Contacts/
-1309ae2  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into own-n  [OwnDroid]
-   * packages/apps/ContactsCommon/
-abec8a3  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into own-n  [OwnDroid]
+   * hardware/qcom/audio-caf/msm8996/
+6bace74  msm8996: audio: Add l/r mic swapping when using stereo mics  [Rashed Abdel-Tawab]
+   * lineage/jenkins/
+ed1792a  Add ha3g  [Sean hoyt]
    * packages/apps/Dialer/
 8604a37  InCallUI: Don't force enable the prox sensor for incoming calls  [Dan Pasanen]
-b201026  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into own-n  [OwnDroid]
-   * packages/apps/ExactCalculator/
-4b49775  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into own-n  [OwnDroid]
    * packages/apps/Gallery2/
 1f0ec6e  Revert "Gallery2: hide navigation bar when we turn off lights"  [Dan Pasanen]
-   * packages/apps/PhoneCommon/
-97540a4  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into own-n  [OwnDroid]
    * packages/apps/Settings/
+b4edeac  [SQUASHED]SeekBarPreferenceCham: Expand with buttons  [OwnDroid]
+2936e67  Settings: add SeekBarPreference  [OwnDroid]
 31687cf  Fix build after 7.1.2 merge  [OwnDroid]
-4313143  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into own-n  [OwnDroid]
+   * packages/apps/ThemeInterfacer/
+9936dc3  README: Recommend Interfacer be put in the services folder  [Nathan Chancellor]
    * packages/apps/Trebuchet/
+c9e7654  Trebuchet: Do not crash if normalized string for sorting is empty  [Adrian DC]
 99649a5  Don't show market links if market app is protected  [Dan Pasanen]
 1cc5cef  Trebuchet: use normalized strings for sorting into bucket  [Dan Pasanen]
-   * system/core/
-f14ca82  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into own-n  [OwnDroid]
    * system/sepolicy/
 bf78045  sepolicy: add file and domain trans to interfacer  [OwnDroid]
 86d96c8  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into own-n  [OwnDroid]
@@ -484,340 +534,3 @@ bf78045  sepolicy: add file and domain trans to interfacer  [OwnDroid]
 0d2cce9  Add a prop value for Substratum verification  [OwnDroid]
 30d0b1c  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_vendor_cm into own-n  [OwnDroid]
 
-====================
-     04-24-2017
-====================
-
-   * hardware/qcom/audio-caf/msm8996/
-fc1c0d9  Add special case for stereo camcorder  [Ethan Chen]
-   * lineage/ansible/
-f1110e0  mirrorbits role  [Tom Powell]
-667cae8  change mirror home, add httpie for mirroring, add jenkins authorized key for mirror  [Tom Powell]
-04252c3  Log gerrit info to its own file  [Tom Powell]
-7dd1f18  Don't restart rsync if no changes have been made  [Tom Powell]
-   * lineage/updater/
-5bee82b  Add Moto Z Play (addison)  [Michael Bestas]
-8433cc3  Hide lge-kernel-mako unless explicitely included  [Michael Bestas]
-   * lineage/wiki/
-9ba75c9  wiki:Fixed description for recovery on maguro  [Ronald Hecht]
-   * packages/apps/Settings/
-c78a1d1  Settings: Fix internal storage summary for non-emulated storage  [Dominggoes Isakh]
-   * packages/apps/ThemeInterfacer/
-97eceaf  JobService: Transition to the Binder Interprocess Communication System  [Nicholas Philip Chum]
-
-====================
-     04-23-2017
-====================
-
-   * frameworks/base/
-4fb6a6d  Keyguard: Move CAF strings to cm_strings.xml.  [Michael Bestas]
-   * hardware/qcom/audio-caf/msm8996/
-97baada  hal: Featureize APE/VORBIS/WMA offload support  [dianlujitao]
-   * lineage/ansible/
-ba58325  gerrit  [Tom Powell]
-   * lineage/jenkins/
-b7ab07e  hudson: Add chagallwifi  [Paul Keith]
-2706fa9  hudson: Rebalance cm-14.1 builds  [Paul Keith]
-50f1d4f  hudson: Bring back D2  [Paul Keith]
-6c4cb52  hudson: Re-add hiae  [Abhisek Devkota]
-be3d269  Move serrano devices to 14.1  [Michael Bestas]
-   * lineage/wiki/
-b34cf70  wiki: Make d2 info consistent  [Paul Keith]
-1152d87  wiki: Update information for d2*  [Abhisek Devkota]
-e6bf76d  wiki: Move serrano variants to 14.1  [Michael Bestas]
-21ec9ad  devices: Add serranodsdd  [Michael W]
-
-====================
-     04-22-2017
-====================
-
-   * external/stagefright-plugins/
-3846013  Revert "codecs: Disable AC3/EAC3"  [Jesse Chan]
-   * frameworks/base/
-58a57fa  Enable\Disable bluetooth battery status[1/2]  [OwnDroid]
-dd96efa  Revert "Live Volume Steps [1/2]"  [OwnDroid]
-   * hardware/qcom/fm/
-51e71fd  libfm_jni: Fix strchr implicit char* typecast in ConfFileParser  [Adrian DC]
-56dd18a  libjm_jni: Missing liblog dependency and jni core headers  [Adrian DC]
-   * lineage/ansible/
-222d6b1  mirror (rsync) server  [Tom Powell]
-8d19e96  ignore .retry files  [Tom Powell]
-55d0c05  inventory/hostname/site updates  [Tom Powell]
-43403e3  add download server role  [Tom Powell]
-b0a69d2  add android build role  [Tom Powell]
-77b1f7a  update users  [Tom Powell]
-   * lineage/updater/
-0967e90  Cache device updates  [Tom Powell]
-   * packages/apps/OwnSettings/
-26f0846  {SQUASHED} Foce Expand Notifications & Disable Immersive Mode Messages  [OwnDroid]
-7f2b5e1  Rename LED settings to Messages  [OwnDroid]
-9235073  Rename Clock tab to Icons  [OwnDroid]
-
-====================
-     04-21-2017
-====================
-
-   * frameworks/base/
-97fd686  Fix: Toast Icon not showing  [OwnDroid]
-88ac861  Live Volume Steps [1/2]  [OwnDroid]
-b9fe0df  Toast icon switch [1/2]  [OwnDroid]
-941226e  AOKP animations: Add an entry for TRANSIT_TASK_OPEN_BEHIND [1/2]  [OwnDroid]
-88054ef  Add option to disable scrolling cache [1/2]  [OwnDroid]
-065b105  Allow toggling animations off [1/2]  [OwnDroid]
-a2e1149  Listanimation Views and Interpolator [1/2]  [OwnDroid]
-c798d8a  XuiMod: Toast Animations [1/2]  [OwnDroid]
-fca6082  Automatic translation import  [Abhisek Devkota]
-   * hardware/qcom/audio-caf/msm8916/
-41cd40d  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into cm-14.1-caf-8916  [Michael Bestas]
-   * hardware/qcom/audio-caf/msm8994/
-ce39c30  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994  [Michael Bestas]
-   * hardware/qcom/fm/
-c9258ae  Automatic translation import  [Abhisek Devkota]
-   * hardware/qcom/media-caf/msm8994/
-5f3d105  Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.12' into cm-14.1-caf-8994  [Michael Bestas]
-   * lineage/jenkins/
-8b6cdea  hudson: Add Moto Z Play (addison)  [Dan Pasanen]
-   * lineage/mirror/
-348071b  Updated to 21-Apr-17 06:30:43 UTC  [Tim Schumacher]
-   * lineage/wiki/
-f11c34e  Fix typo about addison  [Alberto97]
-dcf908f  devices: Minor corrections  [Bruno Martins]
-accfcba  devices: Add Moto Z Play (addison)  [Michael Bestas]
-bde495e  wiki: Cosmetic changes  [Bruno Martins]
-623b569  wiki: build: Filter unsupported devices  [Bruno Martins]
-e32db64  devices: sony: Fix download_boot informations for fastboot  [Adrian DC]
-   * packages/apps/AudioFX/
-c22088c  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Bluetooth/
-f567929  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/CMBugReport/
-8a4fb41  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/CMParts/
-6c08995  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Calendar/
-cabf3f5  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Camera2/
-19537ec  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/CellBroadcastReceiver/
-c5318ec  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Contacts/
-0d6c369  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/ContactsCommon/
-2b22e18  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/CustomTiles/
-39732b7  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/DeskClock/
-9e20cdf  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Dialer/
-4b88202  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Eleven/
-f4cab90  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Email/
-7c7d90c  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/EmergencyInfo/
-985550c  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/FMRadio/
-f0d11a0  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Gallery2/
-fe9ee12  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/LockClock/
-552041b  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Messaging/
-b3fc116  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/OwnSettings/
-5719677  Fix: Build and NPE  [OwnDroid]
-2f7391f  Toast Icon Switch [2/2]  [OwnDroid]
-c2415b8  Small build fix  [OwnDroid]
-07e83d8  AOKP animations: Add and entry for TRANSIT_TASK_OPEN_BEHIND  [OwnDroid]
-2dedab4  Add option to disable scrolling cache [1/2]  [OwnDroid]
-8c1febb  Allow toggling animations off [1/2]  [OwnDroid]
-4e42e05  Listanimation Views and Interpolator [2/2]  [OwnDroid]
-2d864fe  Create ListView Animation tab  [OwnDroid]
-   * packages/apps/PhoneCommon/
-df09655  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Profiles/
-5f9b3b1  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Recorder/
-9ab0326  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Settings/
-a9fac17  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/SetupWizard/
-e8e7a54  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Snap/
-58fa0bd  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Stk/
-726621f  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Terminal/
-b3167ed  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/ThemeChooser/
-3fa04c4  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/Trebuchet/
-aed0d64  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/TvSettings/
-86a5055  Automatic translation import  [Abhisek Devkota]
-   * packages/apps/UnifiedEmail/
-fdb59c7  Automatic translation import  [Abhisek Devkota]
-   * packages/inputmethods/LatinIME/
-e443900  Automatic translation import  [Abhisek Devkota]
-   * packages/providers/ContactsProvider/
-3151496  Automatic translation import  [Abhisek Devkota]
-   * packages/providers/DataUsageProvider/
-16bd17e  Automatic translation import  [Abhisek Devkota]
-   * packages/providers/DownloadProvider/
-6b65be9  Automatic translation import  [Abhisek Devkota]
-   * packages/providers/ThemesProvider/
-b8d4369  Automatic translation import  [Abhisek Devkota]
-   * packages/providers/WeatherProvider/
-187ce37  Automatic translation import  [Abhisek Devkota]
-   * packages/services/CMAudioService/
-f9a30eb  Automatic translation import  [Abhisek Devkota]
-   * packages/services/LiveLockScreenService/
-5d6b6ee  Automatic translation import  [Abhisek Devkota]
-   * packages/services/Telecomm/
-99aef23  Automatic translation import  [Abhisek Devkota]
-   * packages/services/Telephony/
-85eeeb3  Automatic translation import  [Abhisek Devkota]
-   * packages/services/ThemeManagerService/
-2f285e8  Automatic translation import  [Abhisek Devkota]
-   * packages/services/WeatherService/
-3049526  Automatic translation import  [Abhisek Devkota]
-   * vendor/cmsdk/
-1908152  Automatic translation import  [Abhisek Devkota]
-   * vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
-125dd91  Automatic translation import  [Abhisek Devkota]
-   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-d0d6665  Automatic translation import  [Abhisek Devkota]
-   * vendor/huawei/
-2a7292d  cherry: Update NFC to M BSP  [Michael Bestas]
-   * vendor/ownrom/
-c3c8856  Make Changelog a "bit" longer  [OwnDroid]
-
-====================
-     04-20-2017
-====================
-
-   * frameworks/base/
-1cd6110  SystemUI:Notification bar custom notification display problems  [Rashed Abdel-Tawab]
-e0eb83c  SystemUI:Bluetooth can't be turn off  [Rashed Abdel-Tawab]
-57e4bf7  BT: Update wait function in ManagerService to handle  BLE states  [Rashed Abdel-Tawab]
-e5b82e0  frameworks/base: Fix password/PIN/pattern update issue  [Rashed Abdel-Tawab]
-357c516  SystemUI: Fix QSTileHost exception  [Rashed Abdel-Tawab]
-cc5b481  SystemUI: [RJIL new function] AutoBrightness  [Rashed Abdel-Tawab]
-dc364ad  SystemUI: Fix SystemUI ANR  [Rashed Abdel-Tawab]
-   * hardware/qcom/display-caf/msm8994/
-434068f  Fix duplicate copy file rules  [Michael Bestas]
-   * lineage/jenkins/
-de93623  hudson: Remove klteusc from build roster  [Kevin F. Haggerty]
-   * lineage/wiki/
-b9246f6  devices: Reflect merge of klteusc and kltevzw into klte  [Kevin F. Haggerty]
-a323228  wiki: template: Add TA notice for Sony devices  [Adrian DC]
-a0a269d  wiki: Exclude "Contributing using [git|repo]" from search  [Bruno Martins]
-7bcc556  devices: Update unsupported warning message  [Bruno Martins]
-   * packages/apps/OwnSettings/
-ff8d10f  XuiMod: Toast Animations [2/2]  [OwnDroid]
-   * vendor/ownrom/
-5b33c6c  Add target to make a flashable su addon  [Tom Powell]
-
-====================
-     04-19-2017
-====================
-
-   * external/boringssl/
-84b7017  Make CRYPTO_is_NEON_capable aware of the buggy CPU.  [Paul Keith]
-7609007  Don't set a default armcap state in dynamic armcap modes.  [Paul Keith]
-733592a  Rewrite ARM feature detection.  [Paul Keith]
-d50af31  Remove CRYPTO_set_NEON_functional.  [Paul Keith]
-   * lineage/mirror/
-c30b8cb  Updated to 18-Apr-17 21:01:51 UTC  [Tim Schumacher]
-   * lineage/website/
-20f5170  Last couple of weeks at LineageOS (W/C 3rd April)  [Joey Rizzoli]
-   * lineage/wiki/
-ad077f1  devices: Set 'channel' field on all devices  [Bruno Martins]
-9860c58  devices: Hide LineageOS Info in case of unsupported devices  [Bruno Martins]
-b2baf12  wiki: Properly filter "get LineageOS"  [Bruno Martins]
-17aa89b  Add maintainers back to d2  [Paul Keith]
-6d08d65  wiki: Show download link based on maintainers  [Paul Keith]
-
-====================
-     04-18-2017
-====================
-
-   * android/
-3df7776  manifest: Track our external/libchrome  [Paul Keith]
-   * external/libchrome/
-dc9036a  Disable all NEON in BoringSSL if has_broken_neon is set.  [Paul Keith]
-   * lineage/crowdin/
-ce3a685  config: cm-14.1: Add plurals.xml to CMParts  [Elektroschmock]
-   * lineage/wiki/
-b7f0ca6  contributors: Update Wiki Editors list  [Bruno Martins]
-aaec324  devices: Add myself to bacon, ham, kipper  [Christopher N. Hesse]
-   * system/extras/
-b5332df  Update verity_verifier from master branch  [LuK1337]
-196ed2f  verity: Include libcrypto_utils_static  [Luca Stefani]
-
-====================
-     04-17-2017
-====================
-
-   * frameworks/opt/telephony/
-71c8c95  GsmCdmaPhone: Fix GSM SIM card ICCID on NV sub CDMA devices  [nadlabak]
-   * lineage/wiki/
-9918dfa  devices: some minor corrections / additions  [Simon Shields]
-   * packages/apps/OwnSettings/
-31782ad  Creat Toast Animation Tab  [OwnDroid]
-d26f783  AOKP custom system animations [2/2]  [OwnDroid]
-f6889c8  Add Animation Category in OwnSettings  [OwnDroid]
-   * system/extras/
-252fe23  Revert "Revert "Switch to BoringSSL for crypto.""  [Luca Stefani]
-442b784  Revert "Switch to BoringSSL for crypto."  [LuK1337]
-
-====================
-     04-16-2017
-====================
-
-   * frameworks/base/
-52fd240  AOKP custom system animations (1/2)  [OwnDroid]
-   * hardware/libhardware_legacy/
-372a36e  wifi: Change USES_TI_MAC80211 to a BoardConfig flag  [Michael Bestas]
-   * lineage/wiki/
-15a7050  devices: Add supported models for Motorola devices.  [Sultan Qasim Khan]
-5b8e8ac  wiki: Remove Github Pages mention  [Bruno Martins]
-0ea8140  devices: Update info for bq devices  [Bruno Martins]
-   * packages/apps/Settings/
-0e1c1fa  Move java's around  [OwnDroid]
-
-====================
-     04-15-2017
-====================
-
-   * build/
-5bcb8b7  build: fix verity generation  [Dan Pasanen]
-   * device/huawei/angler/
-24a7ef2  angler: Set initial copyright year in extract script  [razorloves]
-5f8a209  angler: use atfwd service  [razorloves]
-b2bb2d7  angler: update build fingerprint & description to 7.1.2 N2G47H  [razorloves]
-7dfc624  Merge branch 'aosp/nougat-mr2-release' into cm-14.1  [razorloves]
-   * frameworks/base/
-411cb77  base: New google pixel colors  [OwnDroid]
-e8de318  sysui: New google pixel colors  [OwnDroid]
-bdf823e  fingerprint: notify client when cancelling succeeded  [dianlujitao]
-   * frameworks/opt/net/wifi/
-05213b9  Disqualify non-preferred band for both 2.4 and 5GHz  [Nathan Harold]
-c571e21  Load the correct Wifi Saturation Threshold by Band  [Nathan Harold]
-   * hardware/qcom/audio-caf/msm8937/
-dd4c2f0  policy: avoid fallback to deep-buffer for fast requests  [Brinly Taylor]
-862c303  hal : Changes for 24 bit recording support  [Brinly Taylor]
-   * hardware/qcom/audio/default/
-2627639  msm8960: define HFP_ASM_RX_TX 24  [David Marble]
-   * kernel/huawei/angler/
-65a7381  angler: defconfig: apply changes from 7.1.2 N2G47H  [razorloves]
-03f6577  Merge branch 'aosp/android-msm-angler-3.10-nougat-mr2' into cm-14.1  [razorloves]
-   * lineage/wiki/
-246dc02  devices: add lg l90 (w7)  [Bruno Martins]
-   * packages/apps/Settings/
-3e2a040  Add Own to proguard  [OwnDroid]
-   * system/bt/
-d17396c  bt: fix build for non-BLE after the 7.1.2 merge  [Okeer]
-   * vendor/huawei/
-b0f585a  angler: add atfwd.apk  [razorloves]
-55422fa  angler: update blobs from 7.1.2 N2G47H factory image  [razorloves]
