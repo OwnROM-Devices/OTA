@@ -2,16 +2,16 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<angler>
-		<Filename>OwnROM-OFFICIAL-v4.0-angler-20170523</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-angler-20170525</Filename>
             		<BuildUrl
 				id="build"
-				title="LatestBuild"
-				description="Download Latest Build">https://www.androidfilehost.com/?fid=673368273298954670
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/OwnROM-OFFICIAL-v4.0-angler-20170525.zip/download
 			</BuildUrl>
             		<RomUrl
 				id="rom"
 				title="Rom"
-				description="Download OwnROM builds">https://www.androidfilehost.com/?w=files&amp;flid=53781
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/
 			</RomUrl>
 			<ChangelogUrl
 				id="changelog"
@@ -26,7 +26,7 @@
 	    		<VendorUrl
 				id="vendors"
 				title="Vendors"
-				description="Download latest vendors for N6p">https://www.androidfilehost.com/?w=files&amp;flid=180493
+				description="Download latest vendors for N6p">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/Vendors/
 			</VendorUrl>
 	 </angler>
     </Stable>
