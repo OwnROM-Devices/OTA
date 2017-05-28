@@ -3,22 +3,22 @@
     <Stable>
 	<potter>
 		<Filename>OwnROM-OFFICIAL-v4.0-potter-20170527</Filename>
-      <BuildUrl>
+      <BuildUrl
 				id="build"
 				title="Latest Build"
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G5%20Plus%20%28Potter%29/OwnROM-OFFICIAL-v4.0-potter-20170527.zip/download
 			</BuildUrl>
-      <RomUrl>
+      <RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Motorola%20G5%20Plus%20%28Potter%29/
 			</RomUrl>
-      <GappsUrl>
+      <GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
 			</GappsUrl>
-			<ChangelogUrl>
+			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
