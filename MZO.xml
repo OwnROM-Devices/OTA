@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+	<oneplus2>
+		<Filename>OwnROM-Official-v4.0-oneplus2-20170530.zip</Filename>
+      <BuildUrl
+				id="build"
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28OnePlus2%29/OwnROM-Official-v4.0-oneplus2-20170530.zip/download
+			</BuildUrl>
+      <RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28OnePlus2%29/
+			</RomUrl>
+      <GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+	 </oneplus2>
+    </Stable>
+</SlimOTA>
