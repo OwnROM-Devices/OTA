@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-	<angler>
-		<Filename>OwnROM-OFFICIAL-v4.0-angler-20170525</Filename>
+	<oneplus3>
+		<Filename>OwnROM-OFFICIAL-v4.0-oneplus3-20170525</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
@@ -11,28 +11,28 @@
             		<RomUrl
 				id="rom"
 				title="Rom"
-				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/One%20Plus3%20%28OnePlus3%29/
 			</RomUrl>
             		<GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
 			</GappsUrl>
-	    		<VendorUrl
-				id="vendors"
-				title="Vendors"
-				description="Download latest vendors for N6p">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/Vendors/
-			</VendorUrl>
-			<RecoveryUrl
+			<RecoveryUrl1
 				id="recovery"
 				title="Recovery"
-				description="Download latest TWRP Recovery for N6p">https://dl.twrp.me/angler/
-			</RecoveryUrl>
+				description="Download latest TWRP Recovery for OnePlus 3t">https://dl.twrp.me/oneplus3t/
+			</RecoveryUrl1>
+			<RecoveryUrl2
+				id="recovery"
+				title="Recovery"
+				description="Download latest TWRP Recovery for OnePlus 3">https://dl.twrp.me/oneplus33/
+			</RecoveryUrl2>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
-	 </angler>
+	 </oneplus3>
     </Stable>
 </SlimOTA>
