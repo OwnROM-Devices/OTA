@@ -19,12 +19,12 @@
 				description="Download latest GApps">http://opengapps.org/
 			</GappsUrl>
 			<Recovery1Url
-				id="recovery"
+				id="recoveryone"
 				title="Recovery"
 				description="Download latest TWRP Recovery for OnePlus 3t">https://dl.twrp.me/oneplus3t/
 			</Recovery1Url>
 			<Recovery2Url
-				id="recovery"
+				id="recoverytwo"
 				title="Recovery"
 				description="Download latest TWRP Recovery for OnePlus 3">https://dl.twrp.me/oneplus3/
 			</Recovery2Url>
