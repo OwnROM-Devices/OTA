@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-    <Stable>
+	<Stable>
 	    <d582>
 		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170604</Filename>
             		<BuildUrl
@@ -24,6 +24,8 @@
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
 		</d582>
+    	</Stable>
+        <Stable>
 		<d855>
 		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170604</Filename>
 			<BuildUrl
