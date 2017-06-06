@@ -28,6 +28,16 @@
 				title="Recovery"
 				description="Download latest TWRP Recovery for OnePlus 3">https://dl.twrp.me/oneplus3/
 			</Recovery2Url>
+            		<OP3TFirmwareUrl
+				id="OP3TFirmware"
+				title="OP3T Firmware"
+				description="OP3T Firmware Folder">https://www.androidfilehost.com/?w=files&amp;flid=171162
+			</OP3TFirmwareUrl>
+            		<OP3FirmwareUrl
+				id="OP3Firmware"
+				title="OP3 Firmware"
+				description="OP3 Firmware Folder">https://www.androidfilehost.com/?w=files&amp;flid=139137
+			</OP3FirmwareUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
