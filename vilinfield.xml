@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 	    <d582>
-		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170604</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170608</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
@@ -27,7 +27,7 @@
     	</Stable>
         <Stable>
 		<d855>
-		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170604</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170608</Filename>
 			<BuildUrl
 				id="build"
 				title="Latest Build"
