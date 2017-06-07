@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-	<Stable>
-	    <d582>
+    <Stable>
+	<d852>
 		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170608</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d852%29/OwnROM-OFFICIAL-v4.0-d852-20170604.zip/download
 			</BuildUrl>
-			<RomUrl
+            		<RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d852%29/
 			</RomUrl>
-			<GappsUrl
+            		<GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
@@ -23,22 +23,20 @@
 				title="Changelog"
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
-		</d582>
-    	</Stable>
-        <Stable>
-		<d855>
+	</d852>
+	<d855>
 		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170608</Filename>
-			<BuildUrl
+            		<BuildUrl
 				id="build"
 				title="Latest Build"
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d855%29/OwnROM-OFFICIAL-v4.0-d855-20170604.zip/download
 			</BuildUrl>
-			<RomUrl
+            		<RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d855%29/
 			</RomUrl>
-			<GappsUrl
+            		<GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
@@ -48,6 +46,6 @@
 				title="Changelog"
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
-	    	</d855>
+	 </d855>
     </Stable>
 </SlimOTA>
