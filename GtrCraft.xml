@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<potter>
-		<Filename>OwnROM-OFFICIAL-v4.0-potter-20170527</Filename>
+		<Filename>OwnROM-Official-v4.0-potter-20170608.zip</Filename>
       <BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G5%20Plus%20%28Potter%29/OwnROM-OFFICIAL-v4.0-potter-20170527.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G5%20Plus%20%28Potter%29/OwnROM-Official-v4.0-potter-20170608.zip/download
 			</BuildUrl>
       <RomUrl
 				id="rom"
