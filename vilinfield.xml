@@ -46,11 +46,11 @@
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
 			</GappsUrl>
-			<RecoveryUrl
+			<Recovery1Url
 				id="recoveryone"
 				title="Recovery"
 				description="Download latest TWRP Recovery for LG G3 (d855)">https://dl.twrp.me/d855
-			</RecoveryUrl>
+			</Recovery1Url>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
