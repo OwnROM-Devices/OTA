@@ -3,17 +3,17 @@
     <Stable>
 	<z2_plus>
 		<Filename>OwnROM-OFFCIAL-v4.0-z2_plus-20170528</Filename>
-      <BuildUrl
+	        	<BuildUrl
 				id="build"
 				title="Latest Build"
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20Z2%20Plus%20%28z2_plus%29/OwnROM-OFFCIAL-v4.0-z2_plus-20170528.zip/download
 			</BuildUrl>
-      <RomUrl
+	   		<RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Lenovo%20Z2%20Plus%20%28z2_plus%29/
 			</RomUrl>
-      <GappsUrl
+			<GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
@@ -24,5 +24,29 @@
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
 	 </z2_plus>
+	 <harpia>
+                <Filename>OwnROM-OFFICIAL-v4.0-harpia-20170610</Filename>
+		       <BuildUrl
+                                id="build"
+                                title="Latest Build"
+                                description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Play%20%28Harpia%29/OwnROM-OFFICIAL-v4.0-harpia-20170610.zip/download
+                        </BuildUrl>
+		        <RomUrl
+                                id="rom"
+                                title="Rom"
+                                description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Play%20%28Harpia%29/
+                        </RomUrl>
+		        <GappsUrl
+                                id="gapps"
+                                title="GApps"
+                                description="Download latest GApps">http://opengapps.org/
+                        </GappsUrl>
+                        <ChangelogUrl
+                                id="changelog"
+                                title="Changelog"
+                                description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+                        </ChangelogUrl>
+         </harpia>
+
     </Stable>
 </SlimOTA>
