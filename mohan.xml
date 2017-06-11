@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+	<A7010a48>
+		<Filename>OwnROM-Official-v4.0-A7010a48-20170608.zip</Filename>
+      <BuildUrl
+				id="build"
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28A7010a48%29/OwnROM-Official-v4.0-A7010a48-20170608.zip/download
+			</BuildUrl>
+      <RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28A7010a48%29/
+			</RomUrl>
+      <GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+	 </A7010a48>
+    </Stable>
+</SlimOTA>
