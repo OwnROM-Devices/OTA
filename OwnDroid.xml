@@ -13,6 +13,11 @@
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/One%20Plus3%2C3t%20%28OnePlus3%2C3t%29/
 			</RomUrl>
+            		<KernelUrl
+				id="kernel"
+				title="OwnKernel"
+				description="Download latest OwnKernel for OnePlus3/3t">https://sourceforge.net/projects/own-rom/files/One%20Plus3%2C3t%20%28OnePlus3%2C3t%29/OwnKernel_OwnPlus3-3t/
+			</KernelUrl>
             		<GappsUrl
 				id="gapps"
 				title="GApps"
