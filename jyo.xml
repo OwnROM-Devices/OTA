@@ -6,7 +6,7 @@
             <BuildUrl
 				                   id="build"
 				                   title="Latest Build"
-				                   description="https://sourceforge.net/projects/own-rom/files/Lenovo%20ZUK%20Z1%20%28Ham%29/OwnROM-UNOFFICIAL-v4.0-ham-20170614.zip/download
+				                   description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20ZUK%20Z1%20%28Ham%29/OwnROM-UNOFFICIAL-v4.0-ham-20170614.zip/download
 			              </BuildUrl>
             <RomUrl
 				                   id="rom"
