@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+        <Stable>
+	         <ham>
+		                      <Filename>OwnROM-OFFICIAL-v4.0-ham-20170613</Filename>
+            <BuildUrl
+				                   id="build"
+				                   title="Latest Build"
+				                   description="(link)
+			              </BuildUrl>
+            <RomUrl
+				                   id="rom"
+				                   title="Rom"
+				                   description="Download OwnROM builds">(link)
+			              </RomUrl>
+            <GappsUrl
+				                   id="gapps"
+				                   title="GApps"
+				                   description="Download latest GApps">http://opengapps.org/
+			              </GappsUrl>
+			      <ChangelogUrl
+				                   id="changelog"
+				                   title="Changelog"
+				                   description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			              </ChangelogUrl>
+	          </ham>
+    </Stable>
+</SlimOTA>
