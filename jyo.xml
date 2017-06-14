@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
         <Stable>
 	         <ham>
-		                      <Filename>OwnROM-OFFICIAL-v4.0-ham-20170614</Filename>
+		                      <Filename>OwnROM-UNOFFICIAL-v4.0-ham-20170614</Filename>
             <BuildUrl
 				                   id="build"
 				                   title="Latest Build"
