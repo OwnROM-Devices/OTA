@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<d852>
-		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170607</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-d852-20170616</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d852%29/OwnROM-OFFICIAL-v4.0-d852-20170607.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d852%29/OwnROM-OFFICIAL-v4.0-d852-20170616.zip/download
 			</BuildUrl>
             		<RomUrl
 				id="rom"
@@ -30,11 +30,11 @@
 			</ChangelogUrl>
 	</d852>
 	<d855>
-		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170607</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-d855-20170616</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d855%29/OwnROM-OFFICIAL-v4.0-d855-20170607.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/LG%20G3%20%28d855%29/OwnROM-OFFICIAL-v4.0-d855-20170616.zip/download
 			</BuildUrl>
             		<RomUrl
 				id="rom"
