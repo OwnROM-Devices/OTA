@@ -49,5 +49,33 @@
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
 	 </oneplus3>
+	<h850>
+		<Filename>OwnROM-OFFICIAL-v4.0-h850-20170621</Filename>
+            		<BuildUrl
+				id="build"
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/One%20Plus3%2C3t%20%28OnePlus3%2C3t%29/OwnROM-OFFICIAL-v4.0-oneplus3-20170617.zip/download
+			</BuildUrl>
+            		<RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/LG%20g5%20%28h850%29/
+			</RomUrl>
+            		<GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+			<Recovery1Url
+				id="recoveryone"
+				title="Recovery"
+				description="Download latest TWRP Recovery for LG g5">https://dl.twrp.me/h850/
+			</Recovery1Url>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+	 </h850>
     </Stable>
 </SlimOTA>
