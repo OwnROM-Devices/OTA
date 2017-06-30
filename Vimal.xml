@@ -2,16 +2,16 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
         <Stable>
 	         <mido>
-			<Filename>OwnROM-OFFICIAL-v4.0-mido-20170629</Filename>
+			<Filename>OwnROM-OFFICIAL-v4.0-mido-20170630</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%20Note%204%20%28mido%29/OwnROM-OFFICIAL-v4.0-mido-20170629.zip/download
+				description="Download Latest Build">
 			</BuildUrl>
             		<RomUrl
 				id="rom"
 				title="Rom"
-				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%20Note%204%20%28mido%29/
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%20Note%204%20%28mido%29/OwnROM-OFFICIAL-v4.0-mido-20170630.zip/download%20Redmi%20Note%204%20%28mido%29/
 			</RomUrl>
             		<GappsUrl
 				id="gapps"
