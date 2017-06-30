@@ -18,6 +18,11 @@
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
 			</GappsUrl>
+			<RecoveryUrl
+				id="recovery"
+				title="Recovery"
+				description="Download latest TWRP Recovery for Redmi Note 4">https://dl.twrp.me/mido/
+			</RecoveryUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
