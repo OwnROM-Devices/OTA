@@ -3,17 +3,17 @@
     <Stable>
 	<A7010a48>
 		<Filename>OwnROM-Official-v4.0-A7010a48-20170608.zip</Filename>
-      <BuildUrl
+      			<BuildUrl
 				id="build"
 				title="Latest Build"
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28A7010a48%29/OwnROM-Official-v4.0-A7010a48-20170608.zip/download
 			</BuildUrl>
-      <RomUrl
+      			<RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/One%20Plus2%20%28A7010a48%29/
 			</RomUrl>
-      <GappsUrl
+     			 <GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
