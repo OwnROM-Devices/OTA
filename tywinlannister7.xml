@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    
+    <Stable>
+	     
+       <athene>
+		  
+        <Filename>OwnROM-OFFICIAL-v4.0-athene-20170627</Filename>
+            		
+        <BuildUrl				
+         id="build"
+				 title="Latest Build"
+				 description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Plus%20%28Athene%29/OwnROM-OFFICIAL-v4.0-athene-20170627.zip/download		 
+       </BuildUrl>
+       
+       <RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Plus%20%28Athene%29/
+			</RomUrl>            		
+      
+      <GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+			
+      <RecoveryUrl
+				id="recoveryone"
+				title="Recovery"
+				description="Download latest TWRP Recovery for Moto G4/Plus">https://dl.twrp.me/athene/
+			</RecoveryUrl>			
+			
+      <ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+	  
+    </athene>
+   
+   </Stable>
+
+</SlimOTA>
