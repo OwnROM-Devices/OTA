@@ -77,5 +77,33 @@
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
 	 </h850>
+	 <titan>
+		<Filename>OwnROM-OFFICIAL-v4.0-titan-20170702.zip</Filename>
+            		<BuildUrl
+				id="build"
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20Moto%20G%202014%20%28Titan%29/OwnROM-OFFICIAL-v4.0-titan-20170702.zip/download
+			</BuildUrl>
+            		<RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Motorola%20Moto%20G%202014%20%28Titan%29/
+			</RomUrl>
+            		<GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+			<Recovery1Url
+				id="recoveryone"
+				title="Recovery"
+				description="Download latest TWRP Recovery for Titan">https://dl.twrp.me/titan/
+			</Recovery1Url>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+	 </titan>
     </Stable>
 </SlimOTA>
