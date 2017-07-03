@@ -1,9 +1,73 @@
 ====================
+     07-03-2017
+====================
+
+   * frameworks/base/
+4826824  Disable Dashcharg for every device 
+   * packages/apps/OwnSettings/
+902e7d5  OwnSettings: Update button backlight brightness in real time 
+
+====================
+     07-01-2017
+====================
+
+   * frameworks/base/
+4606eb5  Base: Show 4G instead of LTE Switch [1/2] 
+c9b1556  QS: Set default columns to 4 [1/2] 
+d00538f  QSCustomizer: use custom column count 
+c4fc3b0  Enable Dash Charge Message 
+7e81793  Base: Custom QS rows/columns [1/2] 
+e4180f1  Base: Custom small QS tiles [1/2] 
+cb4d6e7  voLTE icon: fix spaces 
+ca70644  Base: Ability to toggle VoLTE icon in statusbar [1/2] 
+   * packages/apps/OwnSettings/
+b270ce3  OwnSettings: Show 4G instead of LTE Switch [2/2] 
+13d19e9  OwnSettings: Add Bullhead & Honami Maintainer 
+c1a29a8  OwnSetting: QS: Set default columns to 4 [2/2] 
+cc7b1a0  OwnSettings: Custom QS rows/columns [2/2] 
+e063e5c  OwnSettings: Custom small QS tiles [2/2] 
+701d68d  OwnSettings: Ability to toggle VoLTE icon in statusbar [2/2] 
+3d712c3  OwnSettings: Add Angler Maintainer 
+c14fdcd  OwnCenter: Change Telegram channel link to @OwnROM 
+
+====================
+     06-30-2017
+====================
+
+   * frameworks/base/
+71f0d8f  Data activity icon in statusbar 
+7952f73  Make Data/Wifi activity icon in statusbar optional [1/2] 
+a181cfc  battery: Allow setting custom symbol near text on charging [1/2] 
+   * packages/apps/OwnSettings/
+cd83ed2  Fixes 
+ec02b77  OwnSettings: Add Mido Maintainer 
+a4aa9b9  OwnSettings: Add Titan Maintainer 
+2069e7a  OwnSettings: Make Data/Wifi activity icon in statusbar optional [2/2] 
+bd4d82c  OwnSettings: Allow setting custom charging symbol near text on charging [2/2] 
+dffd162  OwnSettings: Translations Import 
+   * vendor/ownrom/
+85607c1  Merge branch 'own-n' of https://github.com/OwnROM/android_vendor_ownrom into own-n 
+b398010  Vendor: Bring in 720p Bootanimation 
+50e8991  Vendor: Prebuilt Updates 
+
+====================
+     06-29-2017
+====================
+
+
+====================
      06-28-2017
 ====================
 
    * packages/apps/OwnSettings/
 64e6241  OwnSettings: Fix Cancro Plus Url 
+
+====================
+     06-27-2017
+====================
+
+   * vendor/oneplus/
+b780c86  op3: Update to OxygenOS 4.1.5 blobs 
 
 ====================
      06-26-2017
@@ -35,24 +99,42 @@ db1f061  OwnSettings: Update some strings
 4fecc32  Base: Dashboard tile layout config [3/3] 
 d1fa8e6  SysUI:Fix Membar Updating on Task Clear 
 6753d02  RecentsView: Add an Extra Condition for Making FAB And Clear Recents Invisible 
-aaccf76  FAB Recents Clear All improvements 
-0ebf929  Fix Recents View FAB with N Dismiss all Button 
-8e0ed36  Base: Recents Clear All Button Tweaks and Add FAB to Recents Panel [2/2] 
    * packages/apps/Settings/
 d4c2b28  Settings: Dashboard tile layout config [2/3] 
+   * vendor/ownrom/
+5a62fd1  Add mako 
 
 ====================
      06-24-2017
 ====================
-
    * frameworks/base/
+aaccf76  FAB Recents Clear All improvements 
+0ebf929  Fix Recents View FAB with N Dismiss all Button 
+8e0ed36  Base: Recents Clear All Button Tweaks and Add FAB to Recents Panel [2/2] 
 8131f83  statusbar ticker: Update tickercolorhelper 
-a935cc6  Ticker: Set default color to White [1/2] 
-6defc17  Statusbar ticker: use a gentle smooth fade animation 
-37523d4  Statusbar ticker: apply statusbar tint when set to white 
-a5d8493  Statusbar ticker: apply statusbar tint when set to white 
-374dea4  Base: Ticker allow to show music track info on new track being played [1/2] 
-08557e1  Add Status Bar Ticker [1/2] 
+   * kernel/lge/msm8996/
+c345687  g5/v20_defconfig: Regenerate defconfigs 
+aa1a243  ARM64: configs: Enable ZRAM and LZ4 
+8373b2d  UPSTREAM: zram/zcomp: do not zero out zcomp private pages 
+814d6ab  UPSTREAM: zram: pass gfp from zcomp frontend to backend 
+a875bc1  zram: Revert LG's changes 
+6188c02  ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key 
+08fcbc4  BACKPORT: posix_acl: Clear SGID bit when setting file permissions 
+768b47e  ext4: validate s_first_meta_bg at mount time 
+7d4fd8e  ping: implement proper locking 
+1166e34  USB: cypress_m8: add endpoint sanity check 
+994533e  drivers: video: Add bounds checking in fb_cmap_to_user 
+ae1bc6d  net: ping: check minimum size on ICMP header length 
+6f6e40d  ipv4: Don't do expensive useless work during inetdev destroy. 
+f7f7f05  pipe: limit the per-user amount of pages allocated in pipes 
+0149a09  net: add length argument to skb_copy_and_csum_datagram_iovec 
+712a8bc  sysctl: Drop reference added by grab_header in proc_sys_readdir 
+cbdb5e7  ipv6: fix out of bound writes in __ip6_append_data() 
+754fcbe  ipv6/dccp: do not inherit ipv6_mc_list from parent 
+e0c270f  sctp: do not inherit ipv6_{mc|ac|fl}_list from parent 
+b21277a  ipv6: Prevent overrun when parsing v6 header options 
+04661ea  ext4: fix deadlock during page writeback 
+0b6ade2  ext4: fix data exposure after a crash 
    * packages/apps/Settings/
 7b70d68  Fix Gesture Settings FC 
 
@@ -60,12 +142,25 @@ a5d8493  Statusbar ticker: apply statusbar tint when set to white
      06-23-2017
 ====================
 
+   * frameworks/base/
+a935cc6  Ticker: Set default color to White [1/2] 
+6defc17  Statusbar ticker: use a gentle smooth fade animation 
+37523d4  Statusbar ticker: apply statusbar tint when set to white 
+a5d8493  Statusbar ticker: apply statusbar tint when set to white 
+374dea4  Base: Ticker allow to show music track info on new track being played [1/2] 
+08557e1  Add Status Bar Ticker [1/2] 
+   * kernel/lge/msm8996/
+9fb5883  dccp/tcp: do not inherit mc_list from parent 
+2a84679  net/packet: fix overflow in check for tp_reserve 
+efaccf3  net/packet: fix overflow in check for tp_frame_nr 
+cfb6f8c  net/packet: fix overflow in check for priv area size 
+3501d6e  ip6_gre: fix ip6gre_err() invalid reads 
+6a06be3  tty: n_hdlc: get rid of racy n_hdlc.tbuf 
+4796907  TTY: n_hdlc, fix lockdep false positive 
+8fc1ac2  kernel: Fix potential refcount leak in su check 
+35b7c84  kernel: Only expose su when daemon is running 
    * packages/apps/Settings/
 fa55de1  Settings: Fix of new vector Icons 
-
-====================
-     06-21-2017
-====================
 
 
 ====================
@@ -78,7 +173,25 @@ fa55de1  Settings: Fix of new vector Icons
 1be36d4  Settings: Vectorize OwnSettngs icon 
 
 ====================
+     06-19-2017
+====================
+
+   * device/huawei/angler/
+33013cf  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_device_huawei_angler into HEAD 
+
+====================
      06-18-2017
+====================
+
+   * device/qcom/common/
+5985a61  power: Use the correct opcode for STOR_CLK_SCALE_DIS 
+   * packages/apps/Settings/
+c4606f7  Settings: Selinux Switch [1/2] 
+   * vendor/huawei/
+380a0ae  angler: use source built nfc libs 
+
+====================
+     06-17-2017
 ====================
 
    * build/
@@ -88,19 +201,12 @@ fa55de1  Settings: Fix of new vector Icons
 9b4a593  OwnCenter: add Crowdin translation url 
 fa0fd82  Merge branch 'own-n' of https://github.com/OwnROM/android_packages_apps_OwnSettings into own-n 
 e6231e6  OwnSettings: Translations Import 
+d0133c4  Update Crowdin configuration file 
    * packages/apps/Settings/
-c4606f7  Settings: Selinux Switch [1/2] 
 9c7e89f  Settings: Remove Magisk 
 77d32a5  Revert "Settings: Change magisk dashboard icon" 
    * vendor/ownrom/
 bcbde18  Revert "Switch to Magisk as the built in root [1/2]" 
-
-====================
-     06-17-2017
-====================
-
-   * packages/apps/OwnSettings/
-d0133c4  Update Crowdin configuration file 
 
 ====================
      06-16-2017
@@ -114,25 +220,29 @@ f673e53  Add build-targets for harpia and z2 plus
 
 ====================
      06-15-2017
-====================
-
+==================== 
    * frameworks/base/
 936a7ec  Statusbar: Gracefully adapt 3Minit Battery hook for AOSP 
-3544137  Add 3Minit battery mod 
-4b6478c  Add option to disable auto brightness icon in brightness slider [1/2] 
    * packages/apps/OwnSettings/
 245a943  Maintainers: Cleaning 
 7bc3d82  OwnSettings: {SQUASHED} add entry for ScreenShot Delay and Type [2/2] 
 548f330  OwnSettings: Add other tab in Button category 
 5291c19  OwnSettings: add Armani maintainer 
 bd458a5  OwnSettings: Add Ham maintainer 
-5d7e603  OwnSettings: Add option to disable auto brightness icon in brightness  slider [2/2] 
-9aea8a9  OwnSettings: Re-enable quicksettings categoty 
 
 ====================
      06-14-2017
 ====================
+   * frameworks/base/
+3544137  Add 3Minit battery mod 
+4b6478c  Add option to disable auto brightness icon in brightness slider [1/2] 
+   * packages/apps/OwnSettings/
+5d7e603  OwnSettings: Add option to disable auto brightness icon in brightness  slider [2/2] 
+9aea8a9  OwnSettings: Re-enable quicksettings categoty 
 
+====================
+     06-13-2017
+====================
    * frameworks/base/
 e10c50b  BatteryService: add dash charging support 
 
@@ -144,13 +254,13 @@ e10c50b  BatteryService: add dash charging support
 46fa1b5  Merge branch 'cm-14.1' of https://github.com/LineageOS/android into own-n 
    * build/
 618ba18  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into own-n 
+   * device/huawei/angler/
+4767852  angler: build nfc from source 
    * frameworks/base/
 2c63dbf  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into own-n 
 6ab406c  Optimised hwui rounded corners shader 
    * frameworks/native/
 8113818  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into own-n 
-   * lineage/wiki/
-c1af267  wiki: update ham maintainer 
    * packages/apps/CMParts/
 9aa8898  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into own-n 
    * packages/apps/Contacts/
@@ -184,19 +294,15 @@ bc0d8e9  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_vendor_c
 ====================
      06-09-2017
 ====================
-
    * build/
 c3e7f17  Makefile: Add the missing dependency on FUTILITY. 
 f36f76a  Build FUTILITY tool from futility-host. 
    * frameworks/base/
 2dbfdfd  Remove FastJNI optimization on AssetManager to avoid dead lock. 
-bdf97f8  Fix build 
    * lineage/jenkins/
 c597689  hudson: temporary disablement of BQ tenshi 
-   * packages/apps/Email/
-ea4eb75  Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4 
-   * packages/apps/Settings/
-3d43856  Fix build 
+   * lineage/wiki/
+c1af267  wiki: update ham maintainer 
    * vendor/ownrom/
 f5049a6  Add sensitive numbers for Israel. 
 
@@ -208,21 +314,18 @@ f5049a6  Add sensitive numbers for Israel.
    * external/chromium-webview/
 2909904  Update webviews 
    * frameworks/base/
+bdf97f8  Fix build 
 750fefc  Fixed NPE in canAddMoreManagedProfiles 
 5169326  Battery bar: blend colors between full/empty [1/2] 
 e7bf02e  Add BatteryBar customizations [1/2] 
-f807612  Base: Add OmniSwitch as option for default recents [1/2] 
    * lineage/cve/
 b537d10  Fix seeding of kernels 
-9ed8aa4  cve_tracker: Make initial seeding possible 
    * lineage/updater/
 8343855  changelog: show changes for device's active branch, not always cm-14.1 
-12b8eb6  updater: version bump 
-d47c3bf  updater: include changelog in build 
-0fa80de  updater: require absolute imports 
    * lineage/wiki/
 f688041  wiki: add peach install instruction 
-f8f6d78  devices: Set G2 as discontinued 
+   * packages/apps/Email/
+ea4eb75  Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4 
    * packages/apps/Gallery2/
 93bcb4c  Gallery2: support GIF animation 
    * packages/apps/OwnSettings/
@@ -233,6 +336,8 @@ c65ef52  Create strings for battery bar location
 7c2fc67  OwnSettings: Add BatteryBar customizations [2/2] 
 af31b9d  Keep omniswitch settings enabled 
 acd09bd  OwnSettings: Add OmniSwitch as option for default recents [2/2] 
+   * packages/apps/Settings/
+3d43856  Fix build 
    * packages/apps/Terminal/
 5856a60  Terminal: Fix keyboard Ctrl- and ALT-key input. 
    * vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
@@ -257,11 +362,11 @@ e2c6ba5  Vendor: Build Omniswitch
 
 ====================
      06-07-2017
-====================
-
+==================== 
    * android/
 7ce216c  Track to new repo's 
    * frameworks/base/
+f807612  Base: Add OmniSwitch as option for default recents [1/2] 
 2a9db95  QS: Remove listeners only if added 
 6b4e144  Fix DUI slippery flag logic and IllegalArgumentException [2/2] 
 440a235  Fix Aosp bug on custom apps tiles: color not changing on tile state change 
@@ -302,12 +407,17 @@ ddc9411  base: Fix compilation without SystemUI Tests
 e3c5c53  DUI: Initial DUI checkin for N 
 16c8079  Revert "Runtime toggle of navbar" 
    * lineage/cve/
+9ed8aa4  cve_tracker: Make initial seeding possible 
 ee1e333  app: do not show deprecated kernels in status view 
    * lineage/scripts/
 5c432dc  maintainers: Warn if device uses unofficial TWRP 
    * lineage/updater/
+12b8eb6  updater: version bump 
+d47c3bf  updater: include changelog in build 
+0fa80de  updater: require absolute imports 
 0b2fece  Regenerate device dependency mappings 
    * lineage/wiki/
+f8f6d78  devices: Set G2 as discontinued 
 a4ed61f  Update Mi 5s page 
 25563b4  devices: Update LG devices info 
 4c2ad24  wiki: v500: add recovery install method and update info 
@@ -345,14 +455,17 @@ c008c3b  Build utils library and add as boot jar
 90d2205  manifest: android-7.1.2_r8 -> android-7.1.2_r17 
    * build/
 d004945  Merge tag 'android-7.1.2_r17' into cm-14.1 
+   * device/huawei/angler/
+15eab83  angler: update build fingerprint & description to N2G47W 
    * external/stagefright-plugins/
 05bf4e7  ffmpeg-extractor: StageFright supports Opus files 
 11bc5a2  Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright" 
    * frameworks/base/
 77163a2  Merge tag 'android-7.1.2_r17' into cm-14.1 
-4f07a6b  SystemUI: Remove trailing whitespace on high_accuracy_description 
    * frameworks/native/
 1eed077  Merge tag 'android-7.1.2_r17' into cm-14.1 
+   * kernel/huawei/angler/
+4246f34  Merge branch 'aosp/android-msm-angler-3.10-nougat-mr2' into cm-14.1 
    * libcore/
 b162f5e  Merge tag 'android-7.1.2_r17' into cm-14.1 
    * lineage/cve/
@@ -370,7 +483,6 @@ eb5a973  Add another device->kernel mapping exception
 59e4989  Add Xiaomi Mi MIX (lithium) 
    * lineage/website/
 da966d8  Remove # from post titles 
-ae19221  SafetyNet 
    * lineage/wiki/
 74e0748  wiki: update install method for g2 variants and device info 
 03a0354  devices: kingdom: Update recovery install method and device info 
@@ -391,6 +503,8 @@ aa31852  Merge tag 'android-7.1.2_r17' into cm-14.1
    * system/core/
 5e54c5f  libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468 
 14bdeb8  Merge tag 'android-7.1.2_r17' into cm-14.1 
+   * vendor/huawei/
+5a1d6ee  angler: update blobs from N2G47W factory image 
    * vendor/ownrom/
 8c8b137  sensitive_pn: Add Canadian sensitive numbers 
 fa5fdd6  sensitive_pn: Add more numbers from the Netherlands 
@@ -402,6 +516,7 @@ fa5fdd6  sensitive_pn: Add more numbers from the Netherlands
    * android/
 63097a8  Bring in RomStats 
    * frameworks/base/
+4f07a6b  SystemUI: Remove trailing whitespace on high_accuracy_description 
 c9e4d80  StorageManager: Improve exception handling 
 2b7fd52  Add support for page theme color to WebView and WebChromeClient. 
 b24aa63  OwnPlatLogo: Better Quality 
@@ -412,6 +527,15 @@ b24aa63  OwnPlatLogo: Better Quality
    * lineage/scripts/
 d658b66  maintainers: Add fastboot_generic as a bad point 
 2468921  maintainers-checks: Use elif to check 'dd' install method 
+   * lineage/website/
+ae19221  SafetyNet 
+   * lineage/wiki/
+e1a5f17  devices: huawei: add recovery install method 
+c2405bd  ./extract-files.sh directly takes the path, without the -d flag 
+0f494a2  Remove horizontal tab from folder name 
+6e660e5  templates: Add Huawei bootloader unlocking instructions 
+c013764  devices: Update H815/H811 install methods 
+2f63527  templates: Add LG bootloader unlocking instructions 
    * packages/apps/AudioFX/
 6850778  AudioFX: Sign with platform key 
    * packages/apps/OwnStats/
@@ -422,7 +546,6 @@ b7404a3  ReportingService: fix submission page name
    * vendor/ownrom/
 4fe3509  fix check_blacklist function to work on wiped /system partition 
 32d06a9  Vendor: Build RomStats instead 
-140d378  sensitive_pn: Add sensitive numbers for Serbia 
 
 ====================
      06-04-2017
@@ -443,250 +566,6 @@ eb31ba1  Add Mi 5s device page
    * packages/apps/DUI/
 43140ad  SmartBar: Touch sound support 
    * vendor/ownrom/
+140d378  sensitive_pn: Add sensitive numbers for Serbia 
 0842056  Vendor: Bring in RomStats as prebuilt 
-
-====================
-     06-03-2017
-====================
-
-   * frameworks/base/
-8a13912  Automatic translation import 
-3a315ac  Double tap to sleep anywhere on the lock screen [1/3] 
-ef847f7  base: Disable Lockscreen Media Art [1/3] 
-a1b706d  fw: Don't consume home key press when KEY_ACTION_SLEEP is used 
-   * hardware/qcom/audio-caf/msm8916/
-ef3989b  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916 
-40d378a  Revert "audio HAL: fix thread starvation" 
-   * hardware/qcom/media-caf/msm8916/
-d781d8f  Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916 
-   * lineage/cve/
-b0df1d5  cve_tracker: Fix back-link on kernel page 
-   * lineage/mirror/
-954e432  Updated to 02-Jun-2017 20:31:10 UTC 
-   * lineage/scripts/
-a8794d6  maintainers: Check requirements for dd install method 
-   * lineage/wiki/
-7917f91  wiki: Grammar fixes for the installation instructions template 
-a93501d  wiki: Add instructions for version upgrades 
-d84263d  Update install method for the Nvidia devices 
-a92a342  Revert "wiki: Update recovery install methods for LG devices" 
-71c6aec  wiki: Update recovery install methods for LG devices 
-   * packages/apps/CMParts/
-1dbebd0  Automatic translation import 
-dcc8dbc  Regenerate contributors cloud 
-   * packages/apps/OwnSettings/
-663f23b  Maintainers: Re-arange 
-   * packages/apps/Settings/
-9d0198f  Automatic translation import 
-dd4f773  Double tap to sleep anywhere on the lock screen [2/3] 
-6a704ce  Settings: Disable Lockscreen Media Art [2/3] 
-   * vendor/cmsdk/
-f53bcaa  Automatic translation import 
-6a47344  Double tap to sleep anywhere on lock screen [3/3] 
-062bfa9  cmsdk: Disable Lockscreen Media Art [3/3] 
-
-====================
-     06-02-2017
-====================
-
-   * hardware/qcom/fm/
-10a0e49  Automatic translation import 
-   * lineage/jenkins/
-fca0179  Revert "Hero: pulling due to insecure adb" 
-008c1df  Revert "hero2: pulling due to insecure adb" 
-4d3c7c3  hero2: pulling due to insecure adb 
-8926f20  Hero: pulling due to insecure adb 
-   * lineage/updater/
-73997b2  Fix .side-nav height 
-   * packages/apps/AudioFX/
-a9e6e96  Automatic translation import 
-   * packages/apps/Bluetooth/
-a1d4b44  Automatic translation import 
-   * packages/apps/CMParts/
-ceadf25  Set android:configChanges for .PartsActivity 
-   * packages/apps/Calendar/
-1716e53  Automatic translation import 
-   * packages/apps/Camera2/
-1bd0645  Automatic translation import 
-   * packages/apps/CellBroadcastReceiver/
-f8d149a  Automatic translation import 
-   * packages/apps/Contacts/
-9e7d66e  Automatic translation import 
-   * packages/apps/ContactsCommon/
-23fb9c9  Automatic translation import 
-   * packages/apps/CustomTiles/
-bcc7ac9  Automatic translation import 
-   * packages/apps/DeskClock/
-245a33d  Automatic translation import 
-   * packages/apps/Dialer/
-871e09b  Automatic translation import 
-   * packages/apps/EmergencyInfo/
-3ea2db7  Automatic translation import 
-   * packages/apps/ExactCalculator/
-16e9688  Automatic translation import 
-   * packages/apps/FMRadio/
-22979c0  Automatic translation import 
-   * packages/apps/Gallery2/
-97a397b  Automatic translation import 
-   * packages/apps/ManagedProvisioning/
-4b787a2  Automatic translation import 
-   * packages/apps/Messaging/
-824d9d3  Automatic translation import 
-   * packages/apps/OwnSettings/
-da9b4cb  OwnSettings: Remove Angler maintainer & add OnePlus3/3t maintainer 
-16547b3  OwnCenter: Add Athene maintainer 
-ead12fd  OwnSettings: Fix double entry for QS animations 
-   * packages/apps/PhoneCommon/
-bedcf82  Automatic translation import 
-   * packages/apps/Recorder/
-8c0b44d  Automatic translation import 
-   * packages/apps/Settings/
-b9f7eff  Settings: Make string untranslatable 
-   * packages/apps/SetupWizard/
-0f16837  Automatic translation import 
-   * packages/apps/Snap/
-d8c3f82  Automatic translation import 
-   * packages/apps/Tag/
-1dc7751  Automatic translation import 
-   * packages/apps/TvSettings/
-8314f85  Automatic translation import 
-   * packages/providers/WeatherProvider/
-7f81c53  Automatic translation import 
-   * packages/resources/devicesettings/
-fe6b096  Automatic translation import 
-   * packages/services/LiveLockScreenService/
-15d4966  Automatic translation import 
-   * packages/services/Telecomm/
-65fe3b8  Automatic translation import 
-   * packages/services/Telephony/
-5c6ea38  Automatic translation import 
-   * vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
-0b94297  Automatic translation import 
-   * vendor/nxp-nfc/opensource/Nfc/
-9702650  Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into cm-14.1 
-   * vendor/nxp-nfc/opensource/frameworks/
-039b873  Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into cm-14.1 
-   * vendor/nxp-nfc/opensource/libnfc-nci/
-dc62b78  Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into cm-14.1 
-   * vendor/ownrom/
-dda0c4f  Vendor: Change default wallpaper 
-78243c5  Vendor: Fix some packages not being copied 
-   * vendor/qcom/opensource/cryptfs_hw/
-da6e595  cryptfs_hw: Fix stack out of bound issue 
-
-====================
-     06-01-2017
-====================
-
-   * lineage/cve/
-9ccb7ee  cve_tracker: Recalculate the progress when adding new CVEs 
-6bccea9  cve_tracker: Rework dialogs 
-   * lineage/website/
-501ab9d  Changelog #10 - Sensitive numbers and our CVE Tracker 
-   * packages/apps/OwnStats/
-2290cb6  Automatic translation import 
-   * packages/resources/devicesettings/
-1935d69  Add fingerprint sleep strings 
-   * vendor/ownrom/
-62741ba  sensitive_pn: Add sensitive phone numbers for India 
-8c3ee9c  sensitive_pn: Add more numbers for Germany 
-4b1013f  sensitive_pn: Add sensitive phone numbers for Norway 
-
-====================
-     05-31-2017
-====================
-   * android/
-cf9b84b  Default.xml: Remove LatinIME (AOSP Keyboard) 
-   * external/stagefright-plugins/
-4089877  FFmpegExtractor: Don't use our extractor when we agree with StageFright 
-   * frameworks/base/
-e996bdd  Merge own-n 
-a1d61db  Fix permissions for CTS [1/2] 
-06ad1c6  OMS: StrictMode and files under /data/system/theme/ 
-   * hardware/qcom/display-caf/msm8960/
-d222af7  hwc: return correct color format string while layer dump 
-   * packages/apps/OwnSettings/
-316bf7f  OwnCenter: Add Facebook url & Telegram Channel link 
-aa8d2fd  OwnSettings: Add d855 maintainer 
-e503fff  OwnCenter: Add z2_plus maintainer 
-dc95519  OwnSettings: Hide Buttonbacklight settings for non HW keys devices 
-   * packages/apps/Snap/
-f68cddc  SnapdragonCamera: Fix torch mode with continuous shot 
-c737df5  Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started" 
-09a7a0b  SnapdragonCamera: Camera2 force close after focused 
-018fdd0  SnapdragonCamera: GPS location can't be turn On in camera settings 
-   * packages/apps/Terminal/
-18225bd  Terminal: all menu items should have their proper icon 
-ca41ebc  Terminal: update main theme color for improved readability 
-0ec9d32  Terminal: fix preference defaults 
-5d69fc4  Terminal: volume keys as up/down 
-   * system/sepolicy/
-a190227  Merge own-n 
-1d85118  sepolicy: Allow system_server to set theme_prop 
-   * vendor/ownrom/
-f69117b  Vendor: add GBoard 
-
-====================
-     05-30-2017
-====================
-
-   * android/
-f571b0f  Merge branch 'cm-14.1' of https://github.com/LineageOS/android into own-n 
-400c746  cm.xml: Remove Trebuchet Launcher 
-   * build/
-a1d458e  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into own-n 
-   * frameworks/base/
-6d48756  SystemUI: Specify user while changing brightness mode 
-cc90cd7  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into own-n 
-   * frameworks/native/
-87707fb  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into own-n 
-   * lineage/updater/
-75cb972  Make favicons absolute links 
-   * packages/apps/CMParts/
-748c66f  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_CMParts into own-n 
-   * packages/apps/Contacts/
-d4618c3  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into own-n 
-   * packages/apps/ContactsCommon/
-9b4f141  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into own-n 
-   * packages/apps/Dialer/
-2903e10  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into own-n 
-   * packages/apps/Email/
-b76ada5  Fix check for deleted messages. 
-70ccb25  Close body InputStreams correctly. 
-   * packages/apps/OwnSettings/
-e0036ab  OwnSettings: #DerpLife 
-1129c4d  OwnSettings: Add summary to volume button wake 
-f11a2dc  OwnSettings: Move Backlight settings to right place 
-   * packages/apps/PackageInstaller/
-ba10c08  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into own-n 
-   * packages/apps/PhoneCommon/
-7462328  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into own-n 
-   * packages/apps/Settings/
-081f724  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into own-n 
-024cc07  Settings: Fix NPE of backlight settings 
-b304b0f  Settings: Remove unneeded code 
-   * packages/apps/Snap/
-26d9aec  Fixed camera crash on exit 
-   * packages/apps/Stk/
-f9f50a5  Do not display toast if alpha text is null. 
-   * packages/apps/UnifiedEmail/
-e353ae2  Properly close body InputStreams. 
-   * system/core/
-4228821  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into own-n 
-   * system/sepolicy/
-0f8cb29  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into own-n 
-   * vendor/ownrom/
-7201def  sensitive_pn: Add additional US numbers 
-05eb2b3  sensitive_pn: add sensitive number for Indonesia 
-2e8ded2  Merge branch 'cm-14.1' of https://github.com/LineageOS/android_vendor_cm into own-n 
-5d29990  sensitive_pn: Add sensitive phone number for Romania 
-24658d6  sensitive_pn: Added sensitive number for the Netherlands 
-15dca0c  Vendor: Bring in NovaLauncher 
-8bb7481  sensitive_pn: add sensitive numbers for Turkey 
-471a9be  sensitive_pn: Add sensitive phone number for Bangladesh 
-976b17e  sensitive_pn: Add US number 
-d409afe  Add sensitive phone numbers for Brazil 
-7b9fa16  sensitive_pn: reorder by MCC code 
-2ca43d1  sensitive_pn: Add Australian sensitive phone number. 
-3a02137  sensitive_pn: Add New Zealand sensitive numbers. 
 
