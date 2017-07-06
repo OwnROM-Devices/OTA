@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+	<oneplus1>
+		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170706</Filename>
+            		<BuildUrl
+				id="build"
+				title="Latest Build"
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/OnePlusOne/OwnROM-OFFICIAL-v4.0-bacon-20170704.zip/download
+			</BuildUrl>
+      
+      <RomUrl
+				id="rom"
+				title="Rom"
+				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/OnePlusOne/
+			</RomUrl>
+            		
+      <GappsUrl
+				id="gapps"
+				title="GApps"
+				description="Download latest GApps">http://opengapps.org/
+			</GappsUrl>
+      
+			<Recovery1Url
+				id="recoveryone"
+				title="Recovery"
+				description="Download latest TWRP Recovery for OnePlus 1">https://dl.twrp.me/bacon/
+			</Recovery1Url>
+   
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog"
+				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
+			</ChangelogUrl>
+      
+	 </oneplus1>
+    </Stable>
+</SlimOTA>
