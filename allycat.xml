@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-	<oneplus1>
+	<bacon>
 		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170707</Filename>
             		<BuildUrl
 				id="build"
@@ -9,13 +9,13 @@
 				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/OnePlusOne/OwnROM-OFFICIAL-v4.0-bacon-20170707.zip/download
 			</BuildUrl>
       
-      <RomUrl
+      			<RomUrl
 				id="rom"
 				title="Rom"
 				description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/OnePlusOne/
 			</RomUrl>
             		
-      <GappsUrl
+      			<GappsUrl
 				id="gapps"
 				title="GApps"
 				description="Download latest GApps">http://opengapps.org/
@@ -33,6 +33,6 @@
 				description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml
 			</ChangelogUrl>
       
-	 </oneplus1>
+	 </bacon>
     </Stable>
 </SlimOTA>
