@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<angler>
-		<Filename>OwnROM-Official-v4.0-angler-20170701</Filename>
+		<Filename>OwnROM-Official-v4.0-angler-20170707</Filename>
       			<BuildUrl
 				id="build"
 				title="Latest Build"
