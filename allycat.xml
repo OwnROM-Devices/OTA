@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<oneplus1>
-		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170706</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170707</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
