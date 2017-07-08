@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<bacon>
-		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170707</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-bacon-20170708</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/OnePlusOne/OwnROM-OFFICIAL-v4.0-bacon-20170707.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/OnePlusOne/OwnROM-OFFICIAL-v4.0-bacon-20170708.zip/download
 			</BuildUrl>
       
       			<RomUrl
@@ -24,7 +24,7 @@
 			<Recovery1Url
 				id="recoveryone"
 				title="Recovery"
-				description="Download latest TWRP Recovery for OnePlus 1">https://dl.twrp.me/bacon/
+				description="Download latest TWRP Recovery">https://dl.twrp.me/bacon/
 			</Recovery1Url>
    
 			<ChangelogUrl
