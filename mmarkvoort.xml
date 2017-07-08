@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<angler>
-		<Filename>OwnROM-Official-v4.0-angler-20170708</Filename>
+		<Filename>OwnROM-Official-v4.0-angler-20170707</Filename>
       			<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/OwnROM-OFFICIAL-v4.0-angler-20170708.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Nexus%206p%20%28Angler%29/OwnROM-OFFICIAL-v4.0-angler-20170707.zip/download
 			</BuildUrl>
      			 <RomUrl
 				id="rom"
