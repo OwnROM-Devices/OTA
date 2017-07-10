@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
         <Stable>
 		<ham>
-		  	<Filename>OwnROM-OFFICIAL-v4.0-ham-20170620</Filename>
+		  	<Filename>OwnROM-OFFICIAL-v4.0-ham-20170709</Filename>
             			<BuildUrl
 				  	id="build"
 					title="Latest Build"
-					description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20ZUK%20Z1%20%28Ham%29/OwnROM-OFFICIAL-v4.0-ham-20170620.zip/download
+					description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20ZUK%20Z1%20%28Ham%29/OwnROM-OFFICIAL-v4.0-ham-20170709.zip/download
 				</BuildUrl>
 				<RomUrl
 					id="rom"
