@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	 <titan>
-		<Filename>OwnROM-OFFICIAL-v4.0-titan-20170702.zip</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-titan-20170710.zip</Filename>
             		<BuildUrl
 				id="build"
 				title="Latest Build"
