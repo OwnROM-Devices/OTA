@@ -1,8 +1,8 @@
 <SlimOTA xsi:noNamespaceSchemaLocation="ota.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <Stable>
       <armani>
-         <Filename>OwnROM-OFFICIAL-v4.0-armani-20170629.zip</Filename>
-         <BuildUrl id="build" title="Latest Build" description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%201s%20%28armani%29/OwnROM-OFFICIAL-v4.0-armani-20170629.zip/download			</BuildUrl>
+         <Filename>OwnROM-OFFICIAL-v4.0-armani-20170725.zip</Filename>
+         <BuildUrl id="build" title="Latest Build" description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%201s%20%28armani%29/OwnROM-OFFICIAL-v4.0-armani-20170725.zip/download			</BuildUrl>
          <RomUrl id="rom" title="Rom" description="Download OwnROM builds">https://sourceforge.net/projects/own-rom/files/Xiaomi%20Redmi%201s%20%28armani%29/			</RomUrl>
          <GappsUrl id="gapps" title="GApps" description="Download latest GApps">http://opengapps.org/			</GappsUrl>
          <ChangelogUrl id="changelog" title="Changelog" description="View Changelog">https://raw.githubusercontent.com/OwnROM-Devices/OTA/own-n/changelog.xml			</ChangelogUrl>
