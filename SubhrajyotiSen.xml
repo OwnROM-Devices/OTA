@@ -25,11 +25,11 @@
 			</ChangelogUrl>
 	 </z2_plus>
 	 <harpia>
-                <Filename>OwnROM-OFFICIAL-v4.0-harpia-20170706</Filename>
+                <Filename>OwnROM-OFFICIAL-v4.0-harpia-20170727</Filename>
 		       <BuildUrl
                                 id="build"
                                 title="Latest Build"
-                                description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Play%20%28Harpia%29/OwnROM-OFFICIAL-v4.0-harpia-20170706.zip/download
+                                description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Play%20%28Harpia%29/OwnROM-OFFICIAL-v4.0-harpia-20170727.zip/download
                         </BuildUrl>
 		        <RomUrl
                                 id="rom"
