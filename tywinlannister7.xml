@@ -5,12 +5,12 @@
 	     
        <athene>
 		  
-        <Filename>OwnROM-OFFICIAL-v4.0-athene-20170627</Filename>
+        <Filename>OwnROM-OFFICIAL-v4.0-athene-20170727</Filename>
             		
         <BuildUrl				
          id="build"
 				 title="Latest Build"
-				 description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Plus%20%28Athene%29/OwnROM-OFFICIAL-v4.0-athene-20170627.zip/download		 
+				 description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Motorola%20G4%20Plus%20%28Athene%29/OwnROM-OFFICIAL-v4.0-athene-20170727.zip/download		 
        </BuildUrl>
        
        <RomUrl
