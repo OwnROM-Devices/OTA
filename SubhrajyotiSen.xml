@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
 	<z2_plus>
-		<Filename>OwnROM-OFFICIAL-v4.0-z2_plus-20170625</Filename>
+		<Filename>OwnROM-OFFICIAL-v4.0-z2_plus-20170730</Filename>
 	        	<BuildUrl
 				id="build"
 				title="Latest Build"
-				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20Z2%20Plus%20%28z2_plus%29/OwnROM-OFFICIAL-v4.0-z2_plus-20170625.zip/download
+				description="Download Latest Build">https://sourceforge.net/projects/own-rom/files/Lenovo%20Z2%20Plus%20%28z2_plus%29/OwnROM-OFFICIAL-v4.0-z2_plus-20170730.zip/download
 			</BuildUrl>
 	   		<RomUrl
 				id="rom"
